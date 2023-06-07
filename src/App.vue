@@ -52,26 +52,26 @@ export default {
 .banner-principal .tarjeta
   background-position: center !important
 .banner-principal-decorativo-1
-  top: 35% !important
-  right: 81% !important
+  top: 70% !important
+  right: 86% !important
 .banner-principal-decorativo-2
-  top: 19% !important
-  right: 66% !important
+  top: 48% !important
+  right: 88% !important
 .banner-principal-decorativo-3
   animation: float1 2.8s ease-in-out infinite alternate !important
   position: absolute !important
-  top: 20% !important
-  right: 29% !important
+  top: 26% !important
+  right: 89% !important
 .banner-principal-decorativo-4
   animation: float1 2.8s ease-in-out infinite alternate !important
   position: absolute !important
-  top: 34% !important
-  right: 8% !important
+  top: 20% !important
+  right: 40% !important
 .banner-principal-decorativo-5
   animation: float1 2.8s ease-in-out infinite alternate !important
   position: absolute !important
-  top: 34% !important
-  right: 45% !important
+  top: 27% !important
+  right: 16% !important
 @media screen and (max-width: 992px)
   .cont_responsive1
     right: 0 !important
