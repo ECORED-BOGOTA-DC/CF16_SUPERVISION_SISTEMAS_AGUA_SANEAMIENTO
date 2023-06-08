@@ -119,4 +119,16 @@ export default {
   background: url(./assets/curso/tema1/3.png)
   background-size: cover
   background-position: center
+.cont_gradiente2
+  position: relative
+.cont_gradiente2:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background: url(./assets/curso/tema1/3.png)
+  background-size: cover
+  background-position: center
 </style>
