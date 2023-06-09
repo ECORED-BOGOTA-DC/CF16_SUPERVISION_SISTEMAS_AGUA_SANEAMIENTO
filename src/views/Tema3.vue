@@ -215,6 +215,208 @@
     
     p.mt-5(data-aos="fade-up") Básicamente, la nomenclatura vial es un conjunto de caracteres alfanuméricos que se usan para denominar vías en una ciudad, municipio, etc. Dentro de los elementos que tiene la nomenclatura es necesario diferenciar, de acuerdo con Catastro (s.f.). La nomenclatura domiciliaria es el sistema a través del cual se identifica en una malla vial urbana o rural las vías vehiculares, peatonales, los predios y construcciones:
 
+    .row.col-lg-10.m-auto.mt-5
+      .col-lg.mb-4.mb-lg-0.p-0
+        .h-100.d-flex(style="background-color:#4DB1F0;border-radius:25px 0px 0px 25px;")
+          .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-left:-10%;")
+            img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right")
+          .d-flex.w-100(style="margin-left: -10%;padding-left: 10%;")
+            .p-4.pt-5.pb-5
+              h5(data-aos="fade-up") Nomenclatura vial
+              ul.lista-ul.ps-2.mb-0
+                li.d-flex(data-aos="fade-up")
+                  i.fas.fa-check-circle.icon1(style="color:#FFA031;")
+                  p.mb-0 #[strong Vía principal:] hace referencia a la vía sobre la cual está ubicado el acceso principal del predio.
+                li.d-flex(data-aos="fade-up")
+                  i.fas.fa-check-circle.icon1(style="color:#FFA031;")
+                  p.mb-0 #[strong Vía generadora:] eje vial de menor denominación numérica que tiene intersección con la vía principal.
+      .col-lg.p-0
+        .h-100.d-flex(style="background-color:#FFA031;border-radius:0px 25px 25px 0px;")
+          .d-flex.w-100(style="margin-right: -10%;padding-right: 10%;")
+            .p-4.pt-5.pb-5
+              h5(data-aos="fade-up") Nomenclatura domiciliaria
+              ul.lista-ul.ps-2.mb-0
+                li.d-flex(data-aos="fade-up")
+                  i.fas.fa-check-circle.icon1(style="color:#4DB1F0;")
+                  p.mb-0 #[strong Principal:] acceso principal al predio.
+                li.d-flex(data-aos="fade-up")
+                  i.fas.fa-check-circle.icon1(style="color:#4DB1F0;")
+                  p.mb-0 #[strong Secundaria:] accesos secundarios localizados sobre la vía de acceso principal e Incluye accesos localizados en vías diferentes a la nomenclatura principal y se compone de vía principal - vía generadora.
+          .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-right:-10%;")
+            img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left")
+    
+    p.mt-5(data-aos="fade-up") A partir de las definiciones vistas con la nomenclatura vial y nomenclatura domiciliaria, también se puede conocer la definición y estructura de una nomenclatura urbana. Ver figura 1.
+
+    .col-lg-8.m-auto.mt-5
+      .titulo-sexto.color-acento-botones
+        h5.d-block Figura 1
+        span Mapa conceptual de nomenclatura
+      .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
+        figure.mt-4
+          img(src="@/assets/curso/tema3/12.png" data-aos="zoom-in-up")
+      figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
+    
+    p.mt-5(data-aos="fade-up") Por consiguiente, de acuerdo con la Secretaría de Movilidad de Bogotá (2017), en la página de Infraestructura Integrada de Datos Espaciales para el Distrito Capital (IDECA), se describe la malla vial como:
+    p.mt-4(data-aos="fade-up") Conjunto de líneas que definen los ejes viales de cada una de las vías de la ciudad. Estas líneas tienen estructurada, como atributo, la información de nomenclatura vial, el sentido del tránsito vehicular y su clasificación de acuerdo con el tipo de tráfico que soporta. Ver figura 2.
+
+    .col-lg-8.m-auto.mt-5
+      .titulo-sexto.color-acento-botones
+        h5.d-block Figura 2
+        span Mapa conceptual sobre la vía
+      .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
+        figure.mt-4.col-lg-8.m-auto
+          img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up")
+      figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
+    
+    p.mt-5(data-aos="fade-up") Este objeto está categorizado con base en el tipo de clasificación de la sección vial según el #[span(style="color:#3076B6;") Plan de Ordenamiento Territorial (POT)] de cada ciudad. Dentro de los elementos que lo componen, es necesario aclarar los siguientes términos de acuerdo con la Secretaría de Movilidad de Bogotá (2017):
+
+    .titulo-sexto.color-acento-botones.mt-5
+      h5.d-block Figura 3
+      span Malla Vial Integral. Bogotá D.C
+    
+    .row.mt-4
+      .col-lg.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right")
+      .col-lg(style="place-self:center;")
+        ul.lista-ul.ps-2.mb-0
+          li.d-flex(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#FFA031;")
+            p.mb-0 #[strong Malla vial arterial complementaria:] red de vías que articula operacionalmente los subsistemas de la malla vial principal, facilita la movilidad de mediana y larga distancia como elemento articulador a escala urbana. 
+          li.d-flex(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#FFA031;")
+            p.mb-0 #[strong Malla vial arterial principal:] vía principal, destinada al servicio de tráficos de larga y media distancia.
+          li.d-flex(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#FFA031;")
+            p.mb-0 #[strong Malla vial intermedia:] red constituida por una serie de tramos viales que permean la retícula que conforma la Malla arterial principal y arterial complementaria, sirviendo como alternativa de circulación a estas. Permite el acceso y fluidez de la ciudad a escala zonal.
+          li.d-flex(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#FFA031;")
+            p.mb-0 #[strong Malla vial local:] vía cuya función primordial es la de brindar accesibilidad a predios y soportar tráficos de corta distancia. Establece el acceso a las unidades de vivienda. 
+          li.d-flex(data-aos="fade-up")
+            i.fas.fa-check-circle(style="color:#FFA031;")
+            p.mb-0 #[strong Malla vial peatonal:] vía cuya función principal es el tránsito de peatones. En ella no se permite el acceso vehicular. 
+    
+    .row.mt-5(data-aos="fade-right")
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img.mt-2(src="@/assets/curso/tema3/15.svg")
+      .col.ps-1(style="place-self:center;")
+        h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") ¿Cómo se lee una nomenclatura o dirección?
+    
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mt-5.bloqueg1
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/16.png')})`}"
+      )
+      .bloque-texto-g__texto1.p-4.pt-5.pb-5(style="position: relative;width: 60%;background-color: rgba(255, 255, 255, 0.95);")
+        p.mb-0.text-center.fw-bold.d-block Usualmente las direcciones están compuestas por los siguientes elementos:
+        .row.mt-4
+          .col-md.mb-4.mb-md-0
+            ul.lista-ul.mb-0
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Tipo de vía.
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Número de la vía.
+          .col-md.mb-4.mb-md-0
+            ul.lista-ul.mb-0
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Prefijo de la vía (si lo tiene).
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Número de la vía generadora.
+          .col-md.mb-4.mb-md-0
+            ul.lista-ul.mb-0
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Prefijo de la vía generadora.
+              li.d-flex.mb-1(data-aos="fade-up")
+                i.fas.fa-check-circle(style="color:#FFA031;")
+                p.mb-0 Número de la placa.
+    
+    .row.mt-5
+      .col-lg.mb-4.mb-lg-0
+        .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
+          .bg-white.pb-2.w-100
+            .titulo-sexto.color-acento-botones
+              h5.d-block Figura 4
+              span Ejemplo de dirección
+          .p-3.ps-lg-5.pe-lg-5.w-100
+            figure.mt-4
+              img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up")
+            p.mt-5.text-center(data-aos="fade-up" style="margin-bottom:5rem;") La visualización espacial de esta dirección se ve en la figura 5.
+      .col-lg.mb-4.mb-lg-0
+        .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
+          .bg-white.pb-2.w-100
+            .titulo-sexto.color-acento-botones
+              h5.d-block Figura 5
+              span Ubicación de la dirección
+          .p-3.ps-lg-5.pe-lg-5.w-100
+            figure.mt-4.col-lg-8.m-auto
+              img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up")
+    
+    figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") #[strong Nota.] Tomadas de IGAC y Ministerio de Educación. (s.f.).
+
+    h3.subtitulo_cf(data-aos="fade-up") Señalización y demarcación en las vías y áreas públicas
+
+    p.mt-4(data-aos="fade-up") La señalización y demarcación en las vías es un sistema para brindar información necesaria de manera visual. Existen señales verticales y horizontales y, a manera general, la señalización debe cumplir con las siguientes características de acuerdo con la (Secretaría de Movilidad, 2015. p.9), en su manual de señalización vial:
+
+    .row.mt-4
+      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/19.svg" data-aos="fade-right")
+      .col-lg-10(style="place-self:center;")
+        .row
+          .col-lg-4.mb-5.pe-4(style="position:relative;")
+            .container_arrow1
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#C1E4FA;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe ser necesaria.
+          .col-lg-4.mb-5.pe-4(style="position:relative;")
+            .container_arrow2
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#FFE7CB;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe ser visible y llamar la atención.
+          .col-lg-4.mb-5(style="position:relative;")
+            .container_arrow3
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#C1E4FA;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe ser legible y fácil de entender. 
+          .col-lg-4.mb-5.pe-4(style="position:relative;")
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#FFE7CB;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe ser creíble. 
+          .col-lg-4.mb-5.pe-4(style="position:relative;")
+            .container_arrow4
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#C1E4FA;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe infundir respeto. 
+          .col-lg-4.mb-5.pe-4(style="position:relative;")
+            .container_arrow5
+            .h-100.p-4.pt-5.pb-5.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#FFE7CB;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.15);position:relative;")
+              p.mb-0.text-center.w-100(style="font-size:18px;" data-aos="fade-up") Debe dar tiempo suficiente al actor del tránsito para responder adecuadamente. 
+    
+    p.mt-5.fw-bold.text-center(data-aos="fade-up") En cuanto a diseño, se debe garantizar: 
+
+    .row.mt-5(style="position:relative;")
+      .col-lg-11
+        .p-4(style="background: linear-gradient(180deg, rgba(225,236,246,1) 50%, rgba(207,224,240,1) 50%);border-radius:25px;")
+          .row
+            .col-lg.mb-4.mb-lg-0
+              .h-100.p-4.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#3076B6;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.24);position:relative;")
+                p.text-white.mb-0(data-aos="fade-up") Su tamaño, contraste, colores, forma, composición y retrorreflexión e iluminación se combinan de tal manera que atraigan la atención de todos los actores.
+            .col-lg.mb-4.mb-lg-0
+              .h-100.p-4.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#FFA031;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.24);position:relative;")
+                p.mb-0(data-aos="fade-up") Su legibilidad y tamaño corresponden a la distancia de ubicación, de manera que permita un tiempo adecuado de reacción.
+            .col-lg.mb-4.mb-lg-0
+              .h-100.p-4.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#3076B6;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.24);position:relative;")
+                p.text-white.mb-0(data-aos="fade-up") Sus características de color y tamaño se aprecien de igual manera durante el día, la noche y períodos de visibilidad limitada (Secretaría de Movilidad, 2015).
+            .col-lg-1
+      .col-lg-1.d-none.d-lg-block(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/20.svg" style="position:relative;right: 150px;width: 250px;max-width:none; top: -15px;filter:drop-shadow(-23px 0px 0px #CFE0F0)")
+    
+    p.mt-5.text-center.fw-bold(data-aos="fade-up") Teniendo en cuenta la señalización y demarcación en las vías y áreas públicas, se pueden observar algunos elementos que hacen parte de estas:
+
+
+
+ 
     
 
 
@@ -309,4 +511,67 @@ export default {
   background-color: #FFF0DF
 .tabs-c__tab--active span
   font-weight: bold
+.icon1:before
+  background-color: #fff
+  border-radius: 100%
+@media (max-width: 992px)
+  .bloque-texto-g__texto1
+    width: 100% !important
+  .container_arrow1, .container_arrow2, .container_arrow3, .container_arrow4, .container_arrow5
+    display: none
+.container_arrow1:before
+  content: ''
+  position: absolute
+  width: 35px
+  height: 35px
+  right: 8px
+  z-index: 0
+  background-color: #fff
+  border: 12px #3076B6 solid
+  transform: rotate(45deg)
+  top: 38%
+.container_arrow2:before
+  content: ''
+  position: absolute
+  width: 35px
+  height: 35px
+  right: 8px
+  z-index: 0
+  background-color: #fff
+  border: 12px #FFA031 solid
+  transform: rotate(45deg)
+  top: 38%
+.container_arrow3:before
+  content: ''
+  position: absolute
+  width: 35px
+  height: 35px
+  right: 43%
+  bottom: -15px
+  z-index: 0
+  background-color: #fff
+  border: 12px #3076B6 solid
+  transform: rotate(45deg)
+.container_arrow4:before
+  content: ''
+  position: absolute
+  width: 35px
+  height: 35px
+  left: -3px
+  z-index: 0
+  background-color: #fff
+  border: 12px #3076B6 solid
+  transform: rotate(45deg)
+  top: 38%
+.container_arrow5:before
+  content: ''
+  position: absolute
+  width: 35px
+  height: 35px
+  left: -3px
+  z-index: 0
+  background-color: #fff
+  border: 12px #FFA031 solid
+  transform: rotate(45deg)
+  top: 38%
 </style>
