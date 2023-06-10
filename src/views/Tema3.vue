@@ -414,6 +414,156 @@
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Teniendo en cuenta la señalización y demarcación en las vías y áreas públicas, se pueden observar algunos elementos que hacen parte de estas:
 
+    .row.mt-5
+      .col-lg.mb-5.mb-lg-0
+        .row.mt-5(data-aos="fade-right")
+          .col-auto.pe-0(style="place-self:center;")
+            figure
+              img.mt-2(src="@/assets/curso/tema3/15.svg")
+          .col.ps-1(style="place-self:center;")
+            h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Simbología
+        
+        p.mt-4(data-aos="fade-up") En el contexto internacional existe la tendencia a preferir señales con mensajes simbólicos en lugar de escritos, porque el uso de símbolos facilita una rápida comprensión del mensaje, contribuyendo así a una mayor seguridad del tránsito (Secretaría de Movilidad, 2015).
+        figure.mt-4
+          img(src="@/assets/curso/tema3/21.svg" data-aos="zoom-in-up")
+      .col-lg
+        .row.mt-5(data-aos="fade-right")
+          .col-auto.pe-0(style="place-self:center;")
+            figure
+              img.mt-2(src="@/assets/curso/tema3/15.svg")
+          .col.ps-1(style="place-self:center;")
+            h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Señales verticales
+        
+        .titulo-sexto.color-acento-botones.mt-4
+          h5.d-block Figura 6
+          span Muestra un paso peatonal regulado por semáforo ubicado en un tramo de vía.
+        figure.mt-4
+          img(src="@/assets/curso/tema3/22.svg" data-aos="zoom-in-up")
+          figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#DEE4F0;") Fuente: Manual de señalización vial (2015).
+    
+    .col-lg-10.mt-5.m-auto
+      p(data-aos="fade-up") Este tipo de señales alertan limitaciones, prohibiciones o restricciones, advertir de peligros, informar acerca de rutas, direcciones, destinos y sitios de interés. De acuerdo con la Secretaría de Movilidad (2015)  se pueden clasificar en 4 grupos:
+    
+      TabsB.color-primario.mt-5
+        .py-4.py-md-5.p-4(titulo="Señales <br> reglamentarias" :icono="require('@/assets/curso/tema3/23.svg')")
+          .row.col-lg-11.m-auto
+            p.text-center Tienen por finalidad notificar a los usuarios de las vías las prioridades en el uso de estas y autorizaciones existentes.          
+            figure.col-lg-10.m-auto.mt-4
+              img(src='@/assets/curso/tema3/27.svg')
+            p.text-center.fw-bold.mt-4 Tomada de Mintransporte
+        .py-4.py-md-5.p-4(titulo="Señales <br> preventivas" :icono="require('@/assets/curso/tema3/24.svg')")
+          .row.col-lg-11.m-auto
+            p.text-center Su propósito es advertir a los usuarios sobre la existencia y naturaleza de riesgos y/o situaciones imprevistas presentes en la vía o en sus zonas adyacentes.  
+            figure.col-lg-10.m-auto.mt-4
+              img(src='@/assets/curso/tema3/28.svg')
+            p.text-center.fw-bold.mt-4 Tomada de Mintransporte
+        .py-4.py-md-5.p-4(titulo="Señales <br> informativas" :icono="require('@/assets/curso/tema3/25.svg')")
+          .row.col-lg-11.m-auto
+            p.text-center Tienen como propósito guiar a los usuarios y entregarles la información necesaria para que puedan llegar a sus destinos de la forma más segura, simple y directa posible. 
+            figure.col-lg-10.m-auto.mt-4
+              img(src='@/assets/curso/tema3/29.svg')
+            p.text-center.fw-bold.mt-4 Tomada de Mintransporte
+        .py-4.py-md-5.p-4(titulo="Señales <br> transitorias" :icono="require('@/assets/curso/tema3/26.svg')")
+          .row.col-lg-11.m-auto
+            p.text-center Modifican transitoriamente el régimen normal de utilización de la vía. 
+            figure.col-lg-10.m-auto.mt-4
+              img(src='@/assets/curso/tema3/30.svg')
+            p.text-center.fw-bold.mt-4 Tomada de Mintransporte
+    
+    .row.mt-5(data-aos="fade-right")
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img.mt-2(src="@/assets/curso/tema3/15.svg")
+      .col.ps-1(style="place-self:center;")
+        h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Características básicas 
+    
+    .row.mt-5
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta-numerada.color-secundario.p-5.h-100.d-flex.align-content-center.flex-wrap
+          .tarjeta-numerada__numero
+            .h2 1
+          .text-start 
+            p.mb-0(data-aos="fade-up") #[strong Mensaje:] deben tener un mensaje claro e inequívoco al usuario del sistema vial, lo que se logra a través símbolos y/o leyendas.
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta-numerada.color-primario.p-5.h-100.d-flex.align-content-center.flex-wrap
+          .tarjeta-numerada__numero
+            .h2 2
+          .text-start 
+            p.mb-0(data-aos="fade-up") #[strong Forma y color:] dependiendo del tipo de señal, la normativa de tránsito y movilidad especifica colores y formas apropiadas para su uso.
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta-numerada.color-secundario.p-5.h-100.d-flex.align-content-center.flex-wrap
+          .tarjeta-numerada__numero
+            .h2 3
+          .text-start 
+            p.mb-0(data-aos="fade-up") #[strong Tamaño:] se determina en función de la velocidad máxima permitida, ya que esta identifica las distancias mínimas a las que la señal debe ser vista y leída, siempre bajo lo dispuesto por la normatividad aplicable.
+      .col-lg.col-md-6.mb-4.mb-lg-0
+        .tarjeta-numerada.color-primario.p-5.h-100.d-flex.align-content-center.flex-wrap
+          .tarjeta-numerada__numero
+            .h2 4
+          .text-start 
+            p.mb-0(data-aos="fade-up") #[strong Visibilidad y retrorreflexión:] deben ser visibles en cualquier período del día y bajo toda condición climática; por ello se construyen o elaboran con materiales apropiados y se someten a procedimientos que aseguran su retrorreflexión. (Secretaría de Movilidad, 2015).
+    
+    .row.mt-5(data-aos="fade-right")
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img.mt-2(src="@/assets/curso/tema3/15.svg")
+      .col.ps-1(style="place-self:center;")
+        h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;")  Ubicación
+    
+    .row.mt-4
+      .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+        p(data-aos="fade-up") su localización debe considerar distancia entre la señal y la situación a la cual ella se refiere, o ubicación longitudinal, distancia entre la señal y la calzada, o ubicación lateral, altura de la señal y orientación del tablero (Secretaría de Movilidad, 2015).
+        .tarjeta.color-primario.p-4.mt-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/17.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1.text-white Manual de señalización vial
+                  p.text-small.text-white Para ampliar la información sobre la señalización y sus características técnicas se invita a consultar el documento de la Secretaría de Movilidad de Bogotá, 2015, Manual de señalización vial, Capítulo 2, el cual se encuentra en el material complementario o descargar el documento del siguiente enlace. 
+                .col-sm-auto
+                  a.boton.color-primario(href="https://www.mintransporte.gov.co/documentos/29/manuales-de-senalizacion-vial/" target="_blank")
+                    span(style="color:#12263F !important;") Descargar
+                    i.fas.fa-file-download(style="color:#12263F !important;")
+      .col-lg-4(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/31.svg" data-aos="fade-left")
+    
+    .row.mt-5(data-aos="fade-right")
+      .col-auto.pe-0(style="place-self:center;")
+        figure
+          img.mt-2(src="@/assets/curso/tema3/15.svg")
+      .col.ps-1(style="place-self:center;")
+        h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Demarcaciones
+    
+    .row.mt-4
+      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
+        figure
+          img(src="@/assets/curso/tema3/32.png" data-aos="fade-right")
+      .col-lg-8(style="place-self:center;")
+        p(data-aos="fade-up") La señalización horizontal corresponde a la aplicación de marcas viales conformadas por líneas, flechas, símbolos y letras que se adhieren sobre el pavimento, bordillos o sardineles y estructuras de las vías de circulación o adyacentes a ellas, así como a los dispositivos que se colocan sobre la superficie de rodadura, con el fin de regular, canalizar el tránsito o indicar la presencia de obstáculos. Éstas se conocen como demarcaciones (Secretaría de Movilidad, 2015).
+        p.mt-4(Data-aos="fade-up") La ubicación de la demarcación debe ser tal que garantice al usuario que viaja a la velocidad máxima de circulación que permite la vía, ver y comprender su mensaje con suficiente tiempo para reaccionar y ejecutar la maniobra adecuada, de modo que satisfaga uno de los siguientes objetivos: 
+    
+    .cont_3_2.mt-5.pt-5.pb-5
+      .col-lg-10.m-auto
+        .row(style="position:relative;")
+          .col-lg-4.mb-4.mb-lg-0.pe-0(style="place-self:end;")
+            figure
+              img(src="@/assets/curso/tema3/34.svg" data-aos="fade-right")
+          .col-lg-8.ps-0
+            figure
+              img(src="@/assets/curso/tema3/35.svg" data-aos="fade-left")
+        .tarjeta-avatar-b.mt-5(style="position:relative;")
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;")
+          .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 10px 0px rgba(0,0,0,.2);")
+            .p-4
+              h4(data-aos="fade-up") Importante
+              p.mb-0(data-aos="fade-up") Para ampliar la información sobre la señalización y sus características técnicas se invita a consultar el documento de la Secretaría de Movilidad de Bogotá 2015, Manual de señalización vial, Capítulo 3, el cual se encuentra en el material complementario.
+
+          
+
 
 
  
@@ -574,4 +724,30 @@ export default {
   border: 12px #FFA031 solid
   transform: rotate(45deg)
   top: 38%
+.tabs-b__content-item
+  background-color: #FFF0DF
+.tabs-b.color-primario .tabs-b__tab--active
+  border-top-color: #FFA031 !important
+  background-color: #FFF0DF
+.tabs-b__tab
+  border-bottom: 0
+.tarjeta-numerada
+  border: solid 3px
+  box-shadow: 0px 0px 15px rgba(0,0,0,.1)
+.cont_3_2
+  position: relative
+.cont_3_2:before
+  content: ''
+  position: absolute
+  width: 125%
+  left: -15%
+  height: 100%
+  top: 0
+  background: url(../assets/curso/tema3/33.png)
+  background-size: cover
+  background-position: top
+.tarjeta-avatar-b__img
+  min-width: 15%
+.tarjeta-avatar-b .tarjeta
+  padding-left: 5%
 </style>

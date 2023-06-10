@@ -171,7 +171,7 @@
           img(src="@/assets/curso/tema2/26.svg" data-aos="fade-left")
     
     .col-lg-10.m-auto.mt-5
-      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/tema1/17.svg")

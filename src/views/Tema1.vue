@@ -136,12 +136,12 @@
       .tarjeta-avatar-b.mb-5
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema1/16.svg' style="max-width:100px;")
-        .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 16px -8px #707070;")
+        .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 5px 0px rgba(0,0,0,.1);")
           .p-4
             h4(data-aos="fade-up") Nota
             p.mb-0(data-aos="fade-up") Aunque el decreto en mención ha tenido modificaciones y actualmente se cuenta con el Decreto 2981 (2013), que fue compilado en el Decreto 1077 (2015), Sector vivienda, ciudad y territorio, Título 2 Servicio público de aseo, esta clasificación sigue siendo usada a nivel industrial y empresarial por algunas organizaciones, por lo cual se debe tener en cuenta, haciendo la salvedad de que se debe garantizar que su gestión sea acorde con las bases normativas vigentes.
       
-      .tarjeta.color-primario.p-4.mt-5(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+      .tarjeta.color-primario.p-4.mt-5(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/tema1/17.svg")
@@ -206,7 +206,7 @@
       p.mb-0(data-aos="fade-up") Nota: la mezcla de un residuo o desecho peligroso con uno que no lo es, confiere a este último características de peligrosidad y debe ser manejado como residuo o desecho peligroso.
     
     .col-lg-10.m-auto.mt-5
-      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(66,165,227,1) 0%, rgba(48,118,182,1) 100%);")
+      .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/tema1/17.svg")
@@ -234,7 +234,7 @@
       .tarjeta-avatar-b.mb-5
         .tarjeta-avatar-b__img
           img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;")
-        .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 16px -8px #707070;")
+        .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow:  0px 3px 5px 0px rgba(0,0,0,.1);")
           .p-4
             p.mb-0(data-aos="fade-up") Para ampliar la información sobre las características de los desechos peligrosos con     riesgo biológico o infeccioso, al igual que las obligaciones del generador y de los diferentes actores involucrados, se invita a consultar el Decreto Único Reglamentario del Sector Salud y Protección Social, reconocido como Decreto 780 (2016), en sus artículos 2.8.10.5. hasta el 2.8.10.12, el cual se encuentra en el material complementario.
     .col-lg-10.m-auto.mt-5
