@@ -18,7 +18,7 @@
     .titulo-segundo
       h2#t_2_1 2.1 Conceptos claves
     
-    p(data-aos="fade-up") Para iniciar la explicación de este tema, es importante primero aclarar algunos conceptos que son elementales, de acuerdo con el (Decreto 1077, 2015. pp. 388-390). En su Título 2, Capítulo I, ARTÍCULO 2.3.2.1.1. Definiciones, revíselas a continuación:
+    p(data-aos="fade-up") Para iniciar la explicación de este tema, es importante primero aclarar algunos conceptos que son elementales, de acuerdo con el Decreto 1077, 2015. pp. 388-390, en su Título 2, Capítulo I, Artículo 2.3.2.1.1. Definiciones. Revíselas a continuación:
 
     .cont_2_1.mt-4.pt-5.pb-5
       .col-lg-10.m-auto
@@ -227,7 +227,7 @@ export default {
       {
         titulo: 'Generador o productor',
         texto:
-          'Persona que produce y presenta sus residuos sólidos a la persona prestadora del servicio público de aseo para su recolección y por tanto es usuario del servicio público de aseo.',
+          'Persona que produce y presenta sus residuos sólidos a la persona prestadora del servicio público de aseo para su recolección y por tanto, es usuario del servicio público de aseo.',
         imagen: require('@/assets/curso/tema2/6.png'),
       },
       {

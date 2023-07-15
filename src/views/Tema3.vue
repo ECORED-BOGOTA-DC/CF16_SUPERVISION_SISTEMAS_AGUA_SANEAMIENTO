@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Técnicas de disposición final
+      h1 Componentes requeridos en el servicio de aseo
     
     figure.mb-md-0.mt-5.mb-4
       img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up")
@@ -22,6 +22,8 @@
 
     .cajon.color-acento-contenido.p-4.mt-4(style="background-color:#E0F4FE;")
       p.mb-0(data-aos="fade-up") Las personas prestadoras del servicio público de aseo deberán formular e implementar el programa para la prestación del servicio acorde con el plan de gestión integral de residuos sólidos del municipio o distrito y/o regional, según el caso, la regulación vigente y lo establecido en este capítulo. 
+    
+    p.mt-5(data-aos="zoom-in") Para efectos de la formulación de este programa, las personas prestadoras definirán:
 
     .cont_3_1.mt-4.pt-4
       .row
@@ -79,7 +81,7 @@
     .row.mt-5
       .col-lg.mb-4.mb-lg-0
         .h-100.p-4.ps-4.ps-md-5.pe-4.pe-md-5.d-flex.align-items-center(style="background-color:#C1E4FA;border-radius:15px;")
-          p.mb-0(data-aos="fade-up") Desde esta perspectiva, se debe garantizar y mantener bajo supervisión cada una de las actividades que se encuentran inmersas dentro de un servicio público de aseo, las cuales son descritas en el Decreto 1077 (2015), en su Artículo 2.3.2.2.2.1.13 , como: 
+          p.mb-0(data-aos="fade-up") Desde esta perspectiva, se debe garantizar y mantener bajo supervisión cada una de las actividades que se encuentran inmersas dentro de un servicio público de aseo, las cuales son descritas en el Decreto 1077 (2015), en su Artículo 2.3.2.2.2.1.13, como: 
       .col-lg.mb-4.mb-lg-0
         .h-100.p-4.ps-4.ps-md-5.pe-4.pe-md-5.d-flex.align-items-center(style="background-color:#FFE7CB;border-radius:15px;")
           ol.lista-ol.mb-0
@@ -139,15 +141,15 @@
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-left")
     
     .row.mt-5
-      .col-lg.mb-4.mb-lg-0
+      .col-xl.mb-4.mb-xl-0.col-lg-8.m-auto
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/5.svg")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Escala numérica
-            p.mb-0 Se expresa mediante una fracción que indica la relación entre la distancia medida de dos puntos en el mapa (numerador) y la correspondiente en el terreno (denominador) de modo directo como el ejemplo visto.
-      .col-lg.mb-4.mb-lg-0
+            p.mb-0 Se expresa mediante una fracción que indica la relación entre la distancia medida de dos puntos en el mapa (numerador) y la correspondiente en el terreno (denominador) de modo directo, como el ejemplo visto.
+      .col-xl.mb-4.mb-xl-0.col-lg-8.m-auto
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .indicador--hover(v-if="indicadorTarjetaHover")
           .crd_hover_txt--img
@@ -156,14 +158,14 @@
           .crd_hover_txt--body(style="background-color:rgba(255,160,49,.95);")
             p.fw-bold.text-center Escala gráfica
             p.mb-0 La escala gráfica es una línea situada en el mapa, a menudo en el margen de la hoja, que se ha subdividido en segmentos para indicar las longitudes sobre el mapa de las unidades terrestres de distancia. Gracias a este elemento es posible medir la distancia real directamente sobre el mapa con la ayuda de una regla o un compás. 
-      .col-lg.mb-4.mb-lg-0
+      .col-xl.mb-4.mb-xl-0.col-lg-8.m-auto
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/7.svg")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Escala textual o literal
-            p.mb-0 Se expresa, claramente, mediante una relación escrita y literal. Por ejemplo, en el caso específico sería una anotación debajo del plano con una indicación textual ejemplo: un centímetro representa cien metros en el terreno.
+            p.mb-0 Se expresa, claramente, mediante una relación escrita y literal. Por ejemplo, en el caso específico sería una anotación debajo del plano con una indicación textual, ejemplo: un centímetro representa cien metros en el terreno.
     
     h3.subtitulo_cf(data-aos="fade-up") Tipos de mapas
 
@@ -173,7 +175,7 @@
           img(src="@/assets/curso/tema3/8.png" data-aos="fade-right")
       .col-lg-7(style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#DBEFFC;")
-          p.mb-0(data-aos="fade-up") Para iniciar la explicación sobre los tipos de mapas, es necesario definir qué es cartografía. Teniendo en cuenta la definición aportada por el #[strong.cont_popover(style="color:#3076B6;cursor:pointer;position:relative;") #[u IGAC]] (2016), es una disciplina que estudia los diferentes métodos, sistemas, operaciones científicas y técnicas que #[span(style="color:#3076B6;") permiten representar en un plano la superficie terrestre] y los fenómenos o hechos que se desarrollan sobre ella. El producto de la representación recibe el nombre de #[span(style="color:#3076B6;") cartografía, mapa o carta] (p.14).
+          p.mb-0(data-aos="fade-up") Para iniciar la explicación sobre los tipos de mapas, es necesario definir qué es cartografía. Teniendo en cuenta la definición aportada por el #[strong.cont_popover(style="color:#3076B6;cursor:pointer;position:relative;") #[span IGAC]] (2016), es una disciplina que estudia los diferentes métodos, sistemas, operaciones científicas y técnicas que #[span(style="color:#3076B6;") permiten representar en un plano la superficie terrestre] y los fenómenos o hechos que se desarrollan sobre ella. El producto de la representación recibe el nombre de #[span(style="color:#3076B6;") cartografía, mapa o carta] (p.14).
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") Dentro de la clasificación de mapas se pueden encontrar, según el IGAC (2018), los siguientes:
 
@@ -216,7 +218,7 @@
     p.mt-5(data-aos="fade-up") Básicamente, la nomenclatura vial es un conjunto de caracteres alfanuméricos que se usan para denominar vías en una ciudad, municipio, etc. Dentro de los elementos que tiene la nomenclatura es necesario diferenciar, de acuerdo con Catastro (s.f.). La nomenclatura domiciliaria es el sistema a través del cual se identifica en una malla vial urbana o rural las vías vehiculares, peatonales, los predios y construcciones:
 
     .row.col-lg-10.m-auto.mt-5
-      .col-lg.mb-4.mb-lg-0.p-0
+      .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.d-flex(style="background-color:#4DB1F0;border-radius:25px 0px 0px 25px;")
           .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-left:-10%;")
             img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right")
@@ -230,7 +232,7 @@
                 li.d-flex(data-aos="fade-up")
                   i.fas.fa-check-circle.icon1(style="color:#FFA031;")
                   p.mb-0 #[strong Vía generadora:] eje vial de menor denominación numérica que tiene intersección con la vía principal.
-      .col-lg.p-0
+      .col-lg.p-lg-0
         .h-100.d-flex(style="background-color:#FFA031;border-radius:0px 25px 25px 0px;")
           .d-flex.w-100(style="margin-right: -10%;padding-right: 10%;")
             .p-4.pt-5.pb-5
@@ -249,7 +251,7 @@
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5.d-block Figura 1
+        h5 Figura 1
         span Mapa conceptual de nomenclatura
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4
@@ -266,7 +268,7 @@
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4.col-lg-8.m-auto
           img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up")
-      figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
+      figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación (s.f.). 
     
     p.mt-5(data-aos="fade-up") Este objeto está categorizado con base en el tipo de clasificación de la sección vial según el #[span(style="color:#3076B6;") Plan de Ordenamiento Territorial (POT)] de cada ciudad. Dentro de los elementos que lo componen, es necesario aclarar los siguientes términos de acuerdo con la Secretaría de Movilidad de Bogotá (2017):
 
@@ -356,7 +358,7 @@
             figure.mt-4.col-lg-8.m-auto
               img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up")
     
-    figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") #[strong Nota.] Tomadas de IGAC y Ministerio de Educación. (s.f.).
+    figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") #[strong Nota.] Tomadas de IGAC y Ministerio de Educación (s.f.).
 
     h3.subtitulo_cf(data-aos="fade-up") Señalización y demarcación en las vías y áreas públicas
 
@@ -406,7 +408,7 @@
                 p.mb-0(data-aos="fade-up") Su legibilidad y tamaño corresponden a la distancia de ubicación, de manera que permita un tiempo adecuado de reacción.
             .col-lg.mb-4.mb-lg-0
               .h-100.p-4.d-flex.align-content-center.align-items-center.flex-wrap(style="background-color:#3076B6;border-radius:10px;border:5px #fff solid;box-shadow:0px 0px 7px rgba(0,0,0,.24);position:relative;")
-                p.text-white.mb-0(data-aos="fade-up") Sus características de color y tamaño se aprecien de igual manera durante el día, la noche y períodos de visibilidad limitada (Secretaría de Movilidad, 2015).
+                p.text-white.mb-0(data-aos="fade-up") Sus características de color y tamaño se aprecian de igual manera durante el día, la noche y períodos de visibilidad limitada (Secretaría de Movilidad, 2015).
             .col-lg-1
       .col-lg-1.d-none.d-lg-block(style="place-self:center;")
         figure
@@ -512,7 +514,7 @@
     
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") su localización debe considerar distancia entre la señal y la situación a la cual ella se refiere, o ubicación longitudinal, distancia entre la señal y la calzada, o ubicación lateral, altura de la señal y orientación del tablero (Secretaría de Movilidad, 2015).
+        p(data-aos="fade-up") Su localización debe considerar distancia entre la señal y la situación a la cual ella se refiere, o ubicación longitudinal, distancia entre la señal y la calzada, o ubicación lateral, altura de la señal y orientación del tablero (Secretaría de Movilidad, 2015).
         .tarjeta.color-primario.p-4.mt-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -521,7 +523,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1.text-white Manual de señalización vial
-                  p.text-small.text-white Para ampliar la información sobre la señalización y sus características técnicas se invita a consultar el documento de la Secretaría de Movilidad de Bogotá, 2015, Manual de señalización vial, Capítulo 2, el cual se encuentra en el material complementario o descargar el documento del siguiente enlace. 
+                  p.text-small.text-white Para ampliar la información sobre la señalización y sus características técnicas se invita a consultar el documento de la Secretaría de Movilidad de Bogotá, 2015, #[em.text-white Manual de señalización vial], Capítulo 2, el cual se encuentra en el material complementario o descargar el documento del siguiente enlace. 
                 .col-sm-auto
                   a.boton.color-primario(href="https://www.mintransporte.gov.co/documentos/29/manuales-de-senalizacion-vial/" target="_blank")
                     span(style="color:#12263F !important;") Descargar

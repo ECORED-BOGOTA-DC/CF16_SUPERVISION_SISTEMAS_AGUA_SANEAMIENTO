@@ -20,7 +20,7 @@
           img(src="@/assets/curso/tema1/2.png" data-aos="fade-right")
       .col-lg-8(style="place-self:center;")
         .cajon.color-primario.cajon1.p-4(style="background-color:#F7F8FB;")
-          p(data-aos="fade-up") #[strong Residuo sólido:] cualquier objeto, material, sustancia o elemento, principalmente sólido, resultante del consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales o de servicios, que el generador presenta para su recolección por parte de la persona prestadora del servicio público de aseo. Igualmente, se considera como residuo sólido, aquel proveniente del barrido y limpieza de áreas y vías públicas, corte de césped y poda de árboles. Los residuos sólidos que no tienen características de peligrosidad se dividen en #[span(style="color:#3076B6;") aprovechables] y no #[span(style="color:#3076B6;") aprovechables].
+          p(data-aos="fade-up") #[strong Residuo sólido:] cualquier objeto, material, sustancia o elemento, principalmente sólido, resultante del consumo o uso de un bien en actividades domésticas, industriales, comerciales, institucionales o de servicios, que el generador presenta para su recolección por parte de la persona prestadora del servicio público de aseo. Igualmente, se considera como residuo sólido, aquel proveniente del barrido y limpieza de áreas y vías públicas, corte de césped y poda de árboles. Los residuos sólidos que no tienen características de peligrosidad se dividen en #[span(style="color:#3076B6;") aprovechables] y #[span(style="color:#3076B6;") no aprovechables].
           p.mt-4(data-aos="fade-up") Luego, es importante también aclarar un segundo término clave:
           p.mt-4.mb-0(data-aos="fade-up") #[strong Generador o productor:] toda persona que produce y presenta sus residuos sólidos a la prestadora del servicio público de aseo para su recolección y, por tanto, es usuario del servicio público de aseo (Decreto 1077, 2015).
 
@@ -30,7 +30,7 @@
       .mt-4.col-lg-10.m-auto
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/7RFoVdV1Mxk" title="Tipos de residuos sólidos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     h3.subtitulo_cf(data-aos="fade-up") Según sus características particulares
 
@@ -51,7 +51,7 @@
           div(numero="2" titulo="Residuo sólido especial")
             .row
               .col-lg-6.mb-4.mb-lg-0
-                p.mb-0 Es todo residuo que, por su naturaleza, composición, tamaño, volumen y peso, necesidades de transporte, condiciones de almacenaje y compactación, no puede ser recolectado, manejado, tratado o dispuesto normalmente por la persona prestadora del servicio público de aseo. (Decreto 2981, 2013).
+                p.mb-0 Es todo residuo que, por su naturaleza, composición, tamaño, volumen y peso, necesidades de transporte, condiciones de almacenaje y compactación, no puede ser recolectado, manejado, tratado o dispuesto normalmente por la persona prestadora del servicio público de aseo (Decreto 2981, 2013).
               .col-lg-6
                 figure
                   img(src="@/assets/curso/tema1/6.png")
@@ -76,7 +76,7 @@
               .col-lg-6
                 figure
                   img(src="@/assets/curso/tema1/9.png")
-          div(numero="6" titulo="Residuos de aparatos eléctricos y electrónicos (RAEE)")
+          div(numero="6" titulo="Residuos de Aparatos Eléctricos y Electrónicos (RAEE)")
             .row
               .col-lg-6.mb-4.mb-lg-0
                 p.mb-0 Son los aparatos eléctricos o electrónicos en el momento en que se desechan o descartan. Este término comprende todos aquellos componentes, consumibles y subconjuntos que forman parte del producto cuando se descarta, salvo que individualmente sean considerados peligrosos, caso en el cual recibirán el tratamiento previsto para tales residuos.
@@ -87,6 +87,12 @@
     h3.subtitulo_cf(data-aos="fade-up") De acuerdo con su peligrosidad
 
     p.mt-4(data-aos="fade-up") Partiendo de su tipología principal, esta clasificación es una de las más usadas a nivel hospitalario, debido a que fue aportada en su momento por el Decreto 2676 (2000); residuos no peligrosos y residuos peligrosos.
+  
+    ol.lista-ol.mt-4
+      li 
+        span.text-bold a. 
+        | #[strong Residuos no peligrosos que se pueden subclasificar en:]
+    p A continuación, se presentan los tipos de residuos no peligrosos, usados a nivel hospitalario.
 
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
@@ -98,7 +104,7 @@
     p.mt-4(data-aos="fade-up") A continuación, se presentan los tipos de residuos no peligrosos, usados a nivel hospitalario.
 
     .row.mt-4
-      .col-lg.mb-4.mb-lg-0.col-md-6
+      .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
@@ -106,7 +112,7 @@
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Biodegradables
             p.mb-0 Son aquellos restos químicos o naturales que se descomponen fácilmente en el ambiente. En estos restos se encuentran los vegetales, residuos alimenticios, papeles no aptos para reciclaje, jabones y detergentes biodegradables, madera y otros residuos que puedan ser transformados fácilmente.
-      .col-lg.mb-4.mb-lg-0.col-md-6
+      .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .indicador--hover(v-if="indicadorTarjetaHover")
           .crd_hover_txt--img
@@ -114,16 +120,16 @@
               img(src="@/assets/curso/tema1/13.png")
           .crd_hover_txt--body(style="background-color:rgba(255,160,49,.95);")
             p.fw-bold.text-center Reciclables
-            p.mb-0 Son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre éstos se encuentran: papel, plástico, chatarra, telas y radiografías.
-      .col-lg.mb-4.mb-lg-0.col-md-6
+            p.mb-0 Son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre estos se encuentran: papel, plástico, chatarra, telas y radiografías.
+      .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema1/14.png")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Inertes
-            p.mb-0 Son aquellos que no permiten su descomposición, ni su transformación en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre éstos se encuentran: el icopor, papel carbón y los plásticos.
-      .col-lg.mb-4.mb-lg-0.col-md-6
+            p.mb-0 Son aquellos que no permiten su descomposición, ni su transformación en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre estos se encuentran: el icopor, papel, carbón y los plásticos.
+      .col-xl.col-lg-6.col-.mb-xl-0md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure

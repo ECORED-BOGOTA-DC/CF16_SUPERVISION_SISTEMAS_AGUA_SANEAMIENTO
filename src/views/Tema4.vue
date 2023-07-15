@@ -12,7 +12,7 @@
         p(data-aos="fade-up") Mejorar la prestación del servicio público de aseo teniendo en cuenta la gestión integral de los residuos sólidos, aumentando progresivamente la cobertura y la calidad en la prestación del servicio es una política del gobierno nacional.
         p.mt-4(data-aos="fade-up") El Título F del Reglamento Técnico de Agua y Saneamiento Básico (RAS) tiene en cuenta el cálculo de la población, producción per cápita y la demanda del servicio, así como los criterios básicos para las unidades de almacenamiento, recolección y transporte.
         .cajon.color-acento-botones.p-4.mt-4(style="background-color:#E5F3F3;")
-          p.mb-0(data-aos="fade-up") En la prestación del servicio público del aseo se dan disposiciones para el barrido manual y mecánico de vías y limpiezas de áreas públicas, así como criterios de diseño y funcionamiento de estaciones de transferencia, sistemas de aprovechamiento y valorización, tratamiento y disposición de los residuos sólidos. Es importante dar a conocer que dentro del Título F del RAS no se contemplan residuos peligrosos por lo que estos se deben manejar de acuerdo con el decreto único reglamentario 1076 (2015).
+          p.mb-0(data-aos="fade-up") En la prestación del servicio público del aseo se dan disposiciones para el barrido manual y mecánico de vías y limpiezas de áreas públicas, así como criterios de diseño y funcionamiento de estaciones de transferencia, sistemas de aprovechamiento y valorización, tratamiento y disposición de los residuos sólidos. Es importante dar a conocer que dentro del Título F del RAS no se contemplan residuos peligrosos, por lo que estos se deben manejar de acuerdo con el decreto único reglamentario 1076 (2015).
       .col-lg-4(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema4/1.png" data-aos="fade-left")
@@ -256,7 +256,7 @@
         .mt-4.col-lg-10.m-auto
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/7RFoVdV1Mxk" title="Tipos de residuos sólidos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
       h5.mt-5.text-center(data-aos="fade-up") Residuos o desechos peligrosos con riesgo biológico o infeccioso
       

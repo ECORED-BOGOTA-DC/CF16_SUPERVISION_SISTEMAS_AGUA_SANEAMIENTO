@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Supervisión de sistemas de recolección',
     descripcionCurso:
-      'El manejo de residuos sólidos es una de las actividades elementales para la gestión de impactos asociados a la contaminación del suelo, del agua y del aire; el manejo de residuos debe hacerse en base a las características particulares de cada uno. En este componente se realizará un enfoque desde la identificación del residuo hasta la normatividad base de manejo.',
+      'El manejo de residuos sólidos es una de las actividades elementales para la gestión de impactos asociados a la contaminación del suelo, del agua y del aire; el manejo de residuos debe hacerse con base a las características particulares de cada uno. En este componente se realizará un enfoque desde la identificación del residuo hasta la normatividad base de manejo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -234,12 +234,12 @@ export default {
     {
       termino: 'Gestión integral de residuos sólidos',
       significado:
-        'es el conjunto de actividades encaminadas a reducir la generación de residuos, a realizar el aprovechamiento teniendo en cuenta sus características, volumen, procedencia, costos, tratamiento con fines de valorización energética, posibilidades de aprovechamiento y comercialización. También incluye el tratamiento y disposición final de los residuos no aprovechables (Decreto 2981, 2013, p.3).',
+        '"es el conjunto de actividades encaminadas a reducir la generación de residuos, a realizar el aprovechamiento teniendo en cuenta sus características, volumen, procedencia, costos, tratamiento con fines de valorización energética, posibilidades de aprovechamiento y comercialización. También incluye el tratamiento y disposición final de los residuos no aprovechables" (Decreto 2981, 2013, p.3).',
     },
     {
       termino: 'Multiusuarios del servicio público de aseo',
       significado:
-        'son todos aquellos suscriptores agrupados en unidades inmobiliarias, centros habitacionales, conjuntos residenciales, condominios o similares, bajo el régimen de propiedad horizontal vigente o concentrados en centros comerciales o similares, que se caracterizan porque presentan en forma conjunta sus residuos sólidos a la persona prestadora del servicio en los términos del presente decreto o las normas que lo modifiquen, sustituyan o adicionen y que hayan solicitado el aforo de sus residuos para que esta medición sea la base de la facturación del servicio público de aseo. La persona prestadora del servicio facturará a cada inmueble en forma individual, en un todo, de acuerdo con la regulación que se expida para este fin (Decreto 2981, 2013, p.4).',
+        '"son todos aquellos suscriptores agrupados en unidades inmobiliarias, centros habitacionales, conjuntos residenciales, condominios o similares, bajo el régimen de propiedad horizontal vigente o concentrados en centros comerciales o similares, que se caracterizan porque presentan en forma conjunta sus residuos sólidos a la persona prestadora del servicio en los términos del presente decreto o las normas que lo modifiquen, sustituyan o adicionen y que hayan solicitado el aforo de sus residuos para que esta medición sea la base de la facturación del servicio público de aseo. La persona prestadora del servicio facturará a cada inmueble en forma individual, en un todo, de acuerdo con la regulación que se expida para este fin" (Decreto 2981, 2013, p.4).',
     },
     {
       termino: 'Persona prestadora del servicio público de aseo',
@@ -249,29 +249,24 @@ export default {
     {
       termino: 'Plan de Gestión Integral de Residuos Sólidos (PGIRS)',
       significado:
-        'es el instrumento de planeación municipal o regional que contiene un conjunto ordenado de objetivos, metas, programas, proyectos, actividades y recursos, definidos por uno o más entes territoriales, para el manejo de los residuos sólidos, basado en la política de gestión integral de los mismos, el cual se ejecutará durante un período determinado, basándose en un diagnóstico inicial, en su proyección hacia el futuro y en un plan financiero viable que permita garantizar el mejoramiento continuo del manejo de residuos y la prestación del servicio de aseo a nivel municipal o regional, evaluado a través de la medición de resultados. Corresponde a la entidad territorial la formulación, implementación, evaluación, seguimiento y control, y actualización del PGIRS (Decreto 2981, 2013, p.4).',
+        '"es el instrumento de planeación municipal o regional que contiene un conjunto ordenado de objetivos, metas, programas, proyectos, actividades y recursos, definidos por uno o más entes territoriales, para el manejo de los residuos sólidos, basado en la política de gestión integral de los mismos, el cual se ejecutará durante un período determinado, basándose en un diagnóstico inicial, en su proyección hacia el futuro y en un plan financiero viable que permita garantizar el mejoramiento continuo del manejo de residuos y la prestación del servicio de aseo a nivel municipal o regional, evaluado a través de la medición de resultados. Corresponde a la entidad territorial la formulación, implementación, evaluación, seguimiento y control, y actualización del PGIRS" (Decreto 2981, 2013, p.4).',
     },
     {
       termino: 'Presentación de los residuos sólidos',
       significado:
-        'es la actividad del usuario de colocar los residuos sólidos, debidamente almacenados, para la recolección por parte de la persona prestadora del servicio público de aseo. La presentación debe hacerse en el lugar e infraestructura prevista para ello, bien sea en el área pública correspondiente o en el sitio de presentación conjunta, en el caso de multiusuarios y grandes productores (Decreto 2981, 2013, p.5).',
+        '"es la actividad del usuario de colocar los residuos sólidos, debidamente almacenados, para la recolección por parte de la persona prestadora del servicio público de aseo. La presentación debe hacerse en el lugar e infraestructura prevista para ello, bien sea en el área pública correspondiente o en el sitio de presentación conjunta, en el caso de multiusuarios y grandes productores" (Decreto 2981, 2013, p.5).',
     },
   ],
   referencias: [
     {
       referencia:
-        'Comisión de regulación de agua potable y saneamiento básico. (2012, 2 agosto). Concepto 43851 de 2012 CRA - Comisión de Regulación de Agua Potable y Saneamiento Básico - Colombia. www.redjurista.com.',
+        'Comisión de regulación de agua potable y saneamiento básico. (2012, 2 agosto). <em>Concepto 43851 de 2012 CRA - Comisión de Regulación de Agua Potable y Saneamiento Básico - Colombia</em>. www.redjurista.com.',
       link:
         'https://www.redjurista.com/Documents/concepto_43851_de_2012_cra_-_comision_de_regulacion_de_agua_potable_y_saneamiento_basico.aspx#/',
     },
     {
       referencia:
-        'Comisión de regulación de agua potable y saneamiento básico. (s. f.). ¿Quiénes somos?',
-      link: 'https://cra.gov.co/seccion/nuestra-entidad/quienes-somos.html',
-    },
-    {
-      referencia:
-        'Corporación Autónoma Regional del Centro de Antioquia. (2000). Manual para el manejo de los residuos sólidos orgánicos e inorgánicos de la Plaza Minorista José María Villa del municipio de Medellín. Subdirección Ambiental.',
+        'Corporación Autónoma Regional del Centro de Antioquia. (2000). <em>Manual para el manejo de los residuos sólidos orgánicos e inorgánicos de la Plaza Minorista José María Villa del municipio de Medellín</em>. Subdirección Ambiental.',
       link:
         'https://www.corantioquia.gov.co/ciadoc/GESTI%C3%93N%20AMBIENTAL/GA_CN_1904_1999.pdf',
     },
@@ -368,11 +363,6 @@ export default {
         'Resolución 351 de 2005. [Comisión de regulación de agua potable y saneamiento básico]. Por la cual se establecen los regímenes de regulación tarifaria a los que deben someterse las personas prestadoras del servicio público de aseo y la metodología que deben utilizar para el cálculo de las tarifas del servicio de aseo de residuos ordinarios y se dictan otras disposiciones. Diciembre 20 de 2005.',
       link:
         'https://www.redjurista.com/Documents/resolucion_351_de_2005_cra_-_comision_de_regulacion_de_agua_potable_y_saneamiento_basico.aspx#/',
-    },
-    {
-      referencia:
-        'Resolución 352 de 2005. [Comisión de regulación de agua potable y saneamiento básico]. Por la cual se definen los parámetros para la estimación del consumo en el marco de la prestación del servicio público domiciliario de aseo y se dictan otras disposiciones. Diciembre 20 de 2005.',
-      link: 'https://cra.gov.co/documents/Resoluciones_PDF20056000003524.pdf',
     },
     {
       referencia:
