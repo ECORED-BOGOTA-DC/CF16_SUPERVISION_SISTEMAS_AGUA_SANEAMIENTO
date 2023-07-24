@@ -8,7 +8,7 @@
       h1 Componentes requeridos en el servicio de aseo
     
     figure.mb-md-0.mt-5.mb-4
-      img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema3/1.png" data-aos="zoom-in-up" alt="Imagen decorativa")
     .col-lg-10.m-auto
       .p-4.cont_gradiente_gris
         p.mb-0(data-aos="fade-up") Supervisar sistemas de recolección implica también un seguimiento a las rutas y movimientos que se deben realizar por diferentes territorios, con el fin de garantizar la gestión adecuada de los residuos que disponen los distintos tipos de generadores y de las diferentes actividades de limpieza que conforman un sistema de aseo y saneamiento.
@@ -138,14 +138,14 @@
         p.mt-4(data-aos="fade-up") De acuerdo con el Instituto geográfico español, en su documento conceptos cartográficos, la escala puede expresarse de tres formas distintas: numérica, gráfica, y textual o literal. Se invita a revisar el siguiente recurso:
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/4.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/4.png" data-aos="fade-left" alt="Imagen decorativa")
     
     .row.mt-5
       .col-xl.mb-4.mb-xl-0.col-lg-8.m-auto
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/5.svg")
+              img(src="@/assets/curso/tema3/5.svg" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Escala numérica
             p.mb-0 Se expresa mediante una fracción que indica la relación entre la distancia medida de dos puntos en el mapa (numerador) y la correspondiente en el terreno (denominador) de modo directo, como el ejemplo visto.
@@ -154,7 +154,7 @@
           .indicador--hover(v-if="indicadorTarjetaHover")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/6.svg")
+              img(src="@/assets/curso/tema3/6.svg" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(255,160,49,.95);")
             p.fw-bold.text-center Escala gráfica
             p.mb-0 La escala gráfica es una línea situada en el mapa, a menudo en el margen de la hoja, que se ha subdividido en segmentos para indicar las longitudes sobre el mapa de las unidades terrestres de distancia. Gracias a este elemento es posible medir la distancia real directamente sobre el mapa con la ayuda de una regla o un compás. 
@@ -162,7 +162,7 @@
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/7.svg")
+              img(src="@/assets/curso/tema3/7.svg" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Escala textual o literal
             p.mb-0 Se expresa, claramente, mediante una relación escrita y literal. Por ejemplo, en el caso específico sería una anotación debajo del plano con una indicación textual, ejemplo: un centímetro representa cien metros en el terreno.
@@ -172,7 +172,7 @@
     .row.mt-4
       .col-lg-5.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/8.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/8.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-7(style="place-self:center;")
         .cajon.color-acento-contenido.p-4(style="background-color:#DBEFFC;")
           p.mb-0(data-aos="fade-up") Para iniciar la explicación sobre los tipos de mapas, es necesario definir qué es cartografía. Teniendo en cuenta la definición aportada por el #[strong.cont_popover(style="color:#3076B6;cursor:pointer;position:relative;") #[span IGAC]] (2016), es una disciplina que estudia los diferentes métodos, sistemas, operaciones científicas y técnicas que #[span(style="color:#3076B6;") permiten representar en un plano la superficie terrestre] y los fenómenos o hechos que se desarrollan sobre ella. El producto de la representación recibe el nombre de #[span(style="color:#3076B6;") cartografía, mapa o carta] (p.14).
@@ -213,7 +213,7 @@
             p.mb-0 Registro de predios.
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/9.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/9.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") Básicamente, la nomenclatura vial es un conjunto de caracteres alfanuméricos que se usan para denominar vías en una ciudad, municipio, etc. Dentro de los elementos que tiene la nomenclatura es necesario diferenciar, de acuerdo con Catastro (s.f.). La nomenclatura domiciliaria es el sistema a través del cual se identifica en una malla vial urbana o rural las vías vehiculares, peatonales, los predios y construcciones:
 
@@ -221,7 +221,7 @@
       .col-lg.mb-4.mb-lg-0.p-lg-0
         .h-100.d-flex(style="background-color:#4DB1F0;border-radius:25px 0px 0px 25px;")
           .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-left:-10%;")
-            img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right")
+            img(src="@/assets/curso/tema3/10.svg" data-aos="fade-right" alt="Imagen decorativa")
           .d-flex.w-100(style="margin-left: -10%;padding-left: 10%;")
             .p-4.pt-5.pb-5
               h5(data-aos="fade-up") Nomenclatura vial
@@ -245,7 +245,7 @@
                   i.fas.fa-check-circle.icon1(style="color:#4DB1F0;")
                   p.mb-0 #[strong Secundaria:] accesos secundarios localizados sobre la vía de acceso principal e Incluye accesos localizados en vías diferentes a la nomenclatura principal y se compone de vía principal - vía generadora.
           .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-right:-10%;")
-            img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left")
+            img(src="@/assets/curso/tema3/11.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") A partir de las definiciones vistas con la nomenclatura vial y nomenclatura domiciliaria, también se puede conocer la definición y estructura de una nomenclatura urbana. Ver figura 1.
 
@@ -255,7 +255,7 @@
         span Mapa conceptual de nomenclatura
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4
-          img(src="@/assets/curso/tema3/12.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema3/12.png" data-aos="zoom-in-up" alt="Mapa conceptual de nomenclatura")
       figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
     
     p.mt-5(data-aos="fade-up") Por consiguiente, de acuerdo con la Secretaría de Movilidad de Bogotá (2017), en la página de Infraestructura Integrada de Datos Espaciales para el Distrito Capital (IDECA), se describe la malla vial como:
@@ -267,7 +267,7 @@
         span Mapa conceptual sobre la vía
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4.col-lg-8.m-auto
-          img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up" alt="Mapa conceptual sobre la vía")
       figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación (s.f.). 
     
     p.mt-5(data-aos="fade-up") Este objeto está categorizado con base en el tipo de clasificación de la sección vial según el #[span(style="color:#3076B6;") Plan de Ordenamiento Territorial (POT)] de cada ciudad. Dentro de los elementos que lo componen, es necesario aclarar los siguientes términos de acuerdo con la Secretaría de Movilidad de Bogotá (2017):
@@ -279,7 +279,7 @@
     .row.mt-4
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right" alt="Malla Vial Integral. Bogotá D.C")
       .col-lg(style="place-self:center;")
         ul.lista-ul.ps-2.mb-0
           li.d-flex(data-aos="fade-up")
@@ -301,7 +301,7 @@
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
         figure
-          img.mt-2(src="@/assets/curso/tema3/15.svg")
+          img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
       .col.ps-1(style="place-self:center;")
         h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") ¿Cómo se lee una nomenclatura o dirección?
     
@@ -346,7 +346,7 @@
               span Ejemplo de dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4
-              img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up")
+              img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up" alt="Ejemplo de dirección")
             p.mt-5.text-center(data-aos="fade-up" style="margin-bottom:5rem;") La visualización espacial de esta dirección se ve en la figura 5.
       .col-lg.mb-4.mb-lg-0
         .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
@@ -356,7 +356,7 @@
               span Ubicación de la dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4.col-lg-8.m-auto
-              img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up")
+              img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up" alt="Ubicación de la dirección")
     
     figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") #[strong Nota.] Tomadas de IGAC y Ministerio de Educación (s.f.).
 
@@ -367,7 +367,7 @@
     .row.mt-4
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/19.svg" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/19.svg" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-10(style="place-self:center;")
         .row
           .col-lg-4.mb-5.pe-4(style="position:relative;")
@@ -412,7 +412,7 @@
             .col-lg-1
       .col-lg-1.d-none.d-lg-block(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/20.svg" style="position:relative;right: 150px;width: 250px;max-width:none; top: -15px;filter:drop-shadow(-23px 0px 0px #CFE0F0)")
+          img(src="@/assets/curso/tema3/20.svg" style="position:relative;right: 150px;width: 250px;max-width:none; top: -15px;filter:drop-shadow(-23px 0px 0px #CFE0F0)" alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Teniendo en cuenta la señalización y demarcación en las vías y áreas públicas, se pueden observar algunos elementos que hacen parte de estas:
 
@@ -421,18 +421,18 @@
         .row.mt-5(data-aos="fade-right")
           .col-auto.pe-0(style="place-self:center;")
             figure
-              img.mt-2(src="@/assets/curso/tema3/15.svg")
+              img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
           .col.ps-1(style="place-self:center;")
             h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Simbología
         
         p.mt-4(data-aos="fade-up") En el contexto internacional existe la tendencia a preferir señales con mensajes simbólicos en lugar de escritos, porque el uso de símbolos facilita una rápida comprensión del mensaje, contribuyendo así a una mayor seguridad del tránsito (Secretaría de Movilidad, 2015).
         figure.mt-4
-          img(src="@/assets/curso/tema3/21.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema3/21.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
       .col-lg
         .row.mt-5(data-aos="fade-right")
           .col-auto.pe-0(style="place-self:center;")
             figure
-              img.mt-2(src="@/assets/curso/tema3/15.svg")
+              img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
           .col.ps-1(style="place-self:center;")
             h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Señales verticales
         
@@ -440,7 +440,7 @@
           h5.d-block Figura 6
           span Muestra un paso peatonal regulado por semáforo ubicado en un tramo de vía.
         figure.mt-4
-          img(src="@/assets/curso/tema3/22.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema3/22.svg" data-aos="zoom-in-up" alt="Muestra un paso peatonal regulado por semáforo ubicado en un tramo de vía")
           figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#DEE4F0;") Fuente: Manual de señalización vial (2015).
     
     .col-lg-10.mt-5.m-auto
@@ -451,31 +451,31 @@
           .row.col-lg-11.m-auto
             p.text-center Tienen por finalidad notificar a los usuarios de las vías las prioridades en el uso de estas y autorizaciones existentes.          
             figure.col-lg-10.m-auto.mt-4
-              img(src='@/assets/curso/tema3/27.svg')
+              img(src='@/assets/curso/tema3/27.svg' alt="Imagen decorativa")
             p.text-center.fw-bold.mt-4 Tomada de Mintransporte
         .py-4.py-md-5.p-4(titulo="Señales <br> preventivas" :icono="require('@/assets/curso/tema3/24.svg')")
           .row.col-lg-11.m-auto
             p.text-center Su propósito es advertir a los usuarios sobre la existencia y naturaleza de riesgos y/o situaciones imprevistas presentes en la vía o en sus zonas adyacentes.  
             figure.col-lg-10.m-auto.mt-4
-              img(src='@/assets/curso/tema3/28.svg')
+              img(src='@/assets/curso/tema3/28.svg' alt="Imagen decorativa")
             p.text-center.fw-bold.mt-4 Tomada de Mintransporte
         .py-4.py-md-5.p-4(titulo="Señales <br> informativas" :icono="require('@/assets/curso/tema3/25.svg')")
           .row.col-lg-11.m-auto
             p.text-center Tienen como propósito guiar a los usuarios y entregarles la información necesaria para que puedan llegar a sus destinos de la forma más segura, simple y directa posible. 
             figure.col-lg-10.m-auto.mt-4
-              img(src='@/assets/curso/tema3/29.svg')
+              img(src='@/assets/curso/tema3/29.svg' alt="Imagen decorativa")
             p.text-center.fw-bold.mt-4 Tomada de Mintransporte
         .py-4.py-md-5.p-4(titulo="Señales <br> transitorias" :icono="require('@/assets/curso/tema3/26.svg')")
           .row.col-lg-11.m-auto
             p.text-center Modifican transitoriamente el régimen normal de utilización de la vía. 
             figure.col-lg-10.m-auto.mt-4
-              img(src='@/assets/curso/tema3/30.svg')
+              img(src='@/assets/curso/tema3/30.svg' alt="Imagen decorativa")
             p.text-center.fw-bold.mt-4 Tomada de Mintransporte
     
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
         figure
-          img.mt-2(src="@/assets/curso/tema3/15.svg")
+          img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
       .col.ps-1(style="place-self:center;")
         h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Características básicas 
     
@@ -508,7 +508,7 @@
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
         figure
-          img.mt-2(src="@/assets/curso/tema3/15.svg")
+          img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
       .col.ps-1(style="place-self:center;")
         h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;")  Ubicación
     
@@ -518,7 +518,7 @@
         .tarjeta.color-primario.p-4.mt-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema1/17.svg")
+              img(src="@/assets/curso/tema1/17.svg" alt="Imagen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -530,19 +530,19 @@
                     i.fas.fa-file-download(style="color:#12263F !important;")
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/31.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema3/31.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
         figure
-          img.mt-2(src="@/assets/curso/tema3/15.svg")
+          img.mt-2(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
       .col.ps-1(style="place-self:center;")
         h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Demarcaciones
     
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/32.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema3/32.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") La señalización horizontal corresponde a la aplicación de marcas viales conformadas por líneas, flechas, símbolos y letras que se adhieren sobre el pavimento, bordillos o sardineles y estructuras de las vías de circulación o adyacentes a ellas, así como a los dispositivos que se colocan sobre la superficie de rodadura, con el fin de regular, canalizar el tránsito o indicar la presencia de obstáculos. Éstas se conocen como demarcaciones (Secretaría de Movilidad, 2015).
         p.mt-4(Data-aos="fade-up") La ubicación de la demarcación debe ser tal que garantice al usuario que viaja a la velocidad máxima de circulación que permite la vía, ver y comprender su mensaje con suficiente tiempo para reaccionar y ejecutar la maniobra adecuada, de modo que satisfaga uno de los siguientes objetivos: 
@@ -552,13 +552,13 @@
         .row(style="position:relative;")
           .col-lg-4.mb-4.mb-lg-0.pe-0(style="place-self:end;")
             figure
-              img(src="@/assets/curso/tema3/34.svg" data-aos="fade-right")
+              img(src="@/assets/curso/tema3/34.svg" data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.ps-0
             figure
-              img(src="@/assets/curso/tema3/35.svg" data-aos="fade-left")
+              img(src="@/assets/curso/tema3/35.svg" data-aos="fade-left" alt="Imagen decorativa")
         .tarjeta-avatar-b.mt-5(style="position:relative;")
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;")
+            img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;" alt="Imagen decorativa")
           .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 10px 0px rgba(0,0,0,.2);")
             .p-4
               h4(data-aos="fade-up") Importante

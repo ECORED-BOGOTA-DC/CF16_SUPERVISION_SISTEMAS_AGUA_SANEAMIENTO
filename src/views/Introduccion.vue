@@ -12,7 +12,7 @@
       .row
         .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
           figure
-            img(src="@/assets/curso/intro2.png" data-aos="fade-right")
+            img(src="@/assets/curso/intro2.png" data-aos="fade-right" alt="Imagen decorativa")
         .col-lg-1
         .col-lg-7(style="place-self:center;")
           .p-4.p-lg-5.cont_arrow_1(style="background-color:#EAF4FB;")

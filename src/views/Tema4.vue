@@ -15,7 +15,7 @@
           p.mb-0(data-aos="fade-up") En la prestación del servicio público del aseo se dan disposiciones para el barrido manual y mecánico de vías y limpiezas de áreas públicas, así como criterios de diseño y funcionamiento de estaciones de transferencia, sistemas de aprovechamiento y valorización, tratamiento y disposición de los residuos sólidos. Es importante dar a conocer que dentro del Título F del RAS no se contemplan residuos peligrosos, por lo que estos se deben manejar de acuerdo con el decreto único reglamentario 1076 (2015).
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -25,12 +25,12 @@
     p(data-aos="fade-up") Para poder implementar un Plan de Gestión Integral de Residuos Sólidos (PGIRS) dentro de un municipio, se debe tener en cuenta la finalidad que presta el servicio de aseo, donde básicamente busca:
 
     figure.mt-4
-      img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
     
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/3.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema4/3.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         p(data-aos="fade-up") Así mismo, el municipio debe comprender que, para el cálculo de la población, producción per cápita y otros, debe tener en cuenta los siguientes componentes en el ámbito de los residuos:
         .row.mt-4
@@ -62,7 +62,7 @@
             p.mt-4 Las entidades que estén interactuando en la prestación del servicio deben hacer una identificación de aspectos ambientales que se van a generar, respetando los Planes de Ordenamiento Territorial (POT) y los planes de desarrollo urbano previstos.
           .col-lg-4.col-md-6
             figure
-              img(src="@/assets/curso/tema4/4.png")
+              img(src="@/assets/curso/tema4/4.png" alt="Imagen decorativa")
       div(numero="2" titulo="Etapa de diseño")
         .row
           .col-lg-8.mb-4.mb-lg-0.col-md-6
@@ -70,14 +70,14 @@
             p.mt-4 Desde el diseño, se debe dejar listo todo lo necesario, con posibles construcciones, puesta en marcha de equipos, así como las cantidades de material para las obras, recursos humanos necesarios y todo lo relacionado para poder ejecutar el proyecto con los precios detallados.
           .col-lg-4.col-md-6
             figure
-              img(src="@/assets/curso/tema4/5.png")
+              img(src="@/assets/curso/tema4/5.png" alt="Imagen decorativa")
       div(numero="3" titulo="Etapa de construcción")
         .row
           .col-lg-8.mb-4.mb-lg-0.col-md-6
             p.mb-0 Cuando sea necesario construir cualquier estructura para el desarrollo del proyecto, debe contratarse de la manera más transparente posible y evitando los sobrecostos. Las obligaciones legales y las responsabilidades del municipio y de los contratistas deben ser claras para evitar demoras en la ejecución de las obras. Es necesario contar siempre con interventoría para la aprobación y recepción de las infraestructuras que se construyan, y estas deben cumplir con los requisitos establecidos en el Título G del RAS.
           .col-lg-4.col-md-6
             figure
-              img(src="@/assets/curso/tema4/6.png")
+              img(src="@/assets/curso/tema4/6.png" alt="Imagen decorativa")
       div(numero="4" titulo="Etapa de operación y mantenimiento")
         .row
           .col-lg-8.mb-4.mb-lg-0.col-md-6
@@ -85,12 +85,12 @@
             p.mt-4 Cuando un sistema de aseo llega a su fin, el cierre, clausura, postclausura y salvamento de infraestructura deben seguir los lineamientos dados desde el diseño, así como las actividades de seguimiento planteadas en las evaluaciones.
           .col-lg-4.col-md-6
             figure
-              img(src="@/assets/curso/tema4/7.png")
+              img(src="@/assets/curso/tema4/7.png" alt="Imagen decorativa")
     
     .row.mt-5(data-aos="fade-right")
       .col-auto.pe-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema1/11.svg")
+          img(src="@/assets/curso/tema1/11.svg" alt="Imagen decorativa")
       .col.ps-0(style="place-self:center;")
         h4.mb-0.pb-1.ps-2(style="border-bottom:2px #3076B6 dotted;width:fit-content;") Condiciones necesarias para prestar el servicio de aseo
     
@@ -121,7 +121,7 @@
               p.mb-0 Cumplimiento de disposiciones ambientales.
       .col-lg-4
         figure
-          img(src="@/assets/curso/tema4/8.png")
+          img(src="@/assets/curso/tema4/8.png" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -139,12 +139,12 @@
       .col-lg.pe-0
         .h-100.p-4.p-md-5(style="background-color:#B6CFE5;border-radius:20px 0px 0px 20px;")
           figure.text-center
-            img(src="@/assets/curso/tema4/10.svg" data-aos="zoom-in-up" style="max-width:150px;display:inline;")
+            img(src="@/assets/curso/tema4/10.svg" data-aos="zoom-in-up" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           p.mt-4.mb-0(data-aos="fade-up") Cuando se habla de #[strong almacenamiento], es la operación mediante la cual el usuario ubica de forma temporal los residuos en depósitos, contenedores retornables o recipientes desechables, mientras son recogidos.
       .col-lg.ps-0
         .h-100.p-4.p-md-5(style="background-color:#C1E4FA;border-radius:0px 20px 20px 0px;")
           figure.text-center
-            img(src="@/assets/curso/tema4/11.svg" data-aos="zoom-in-up" style="max-width:150px;display:inline;")
+            img(src="@/assets/curso/tema4/11.svg" data-aos="zoom-in-up" style="max-width:150px;display:inline;" alt="Imagen decorativa")
           p.mt-4.mb-0(data-aos="fade-up") La #[strong presentación], por su parte, es la actividad que realiza el usuario cuando envasa, empaca e identifica todo tipo de residuos sólidos que ha generado, para almacenar temporalmente hasta la entrega al prestador de servicio.
     
     p.mt-5(data-aos="fade-up") En cualquiera de los dos casos, se debe tener en cuenta que el bien común supera al bien particular. En caso de que el almacenamiento o la presentación molesten a algunos residentes de zonas cercanas, el prestador del servicio debe programar la recolección de los residuos de tal forma que pueda cumplir con la capacidad demandada y con los horarios y frecuencias necesarios.
@@ -152,7 +152,7 @@
     .col-lg-10.m-auto.mt-5
       .tarjeta-avatar-b.mt-5(style="position:relative;")
         .tarjeta-avatar-b__img
-          img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;")
+          img(src='@/assets/curso/tema1/24.svg' style="max-width:100px;" alt="Imagen decorativa")
         .tarjeta.tarjeta--azul(style="background-color:#F6F6F6;border-radius:10px;box-shadow: 0px 3px 5px 0px rgba(0,0,0,.1);")
           .p-4
             h4(data-aos="fade-up") Importante
@@ -166,7 +166,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/tema4/12.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema4/12.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-7
         .p-4.p-lg-5.cont_arrow_2(style="background-color:#EDEDED;border-radius:10px;")
@@ -181,11 +181,11 @@
               p Los usuarios deben diferenciar los residuos aprovechables y evitar la contaminación cruzada lo que permite valorizar residuos como papel, cartón, plástico, entre otros.
             .col-lg-4.col-md-6(style="place-self:center;")
               figure
-                img(src='@/assets/curso/tema4/13.png' data-aos="fade-left")
+                img(src='@/assets/curso/tema4/13.png' data-aos="fade-left" alt="Imagen decorativa")
           .row
             .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
               figure
-                img(src='@/assets/curso/tema4/14.png' data-aos="fade-right")
+                img(src='@/assets/curso/tema4/14.png' data-aos="fade-right" alt="Imagen decorativa")
             .col-lg-8.col-md-6.text-start(style="place-self:center;")
               h5 Recipientes adecuados
               p Deben tener recipientes con medidas y peso adecuado, que faciliten el cargue y descargue por parte de los operarios del prestador de aseo. Así, como el hecho que estos sean impermeables, para que no se mojen los residuos; con tapas, para evitar atracción de vectores; y resistentes, para soportar contenido. 
@@ -195,11 +195,11 @@
               p Deben tener las medidas necesarias para contener los residuos sólidos generados por la comunidad. En caso de estar llenas, se sugiere que el usuario no deje las bolsas al lado de la caja, porque genera atracción de vectores.
             .col-lg-4.col-md-6(style="place-self:center;")
               figure
-                img(src='@/assets/curso/tema4/15.png' data-aos="fade-left")
+                img(src='@/assets/curso/tema4/15.png' data-aos="fade-left" alt="Imagen decorativa")
           .row
             .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
               figure
-                img(src='@/assets/curso/tema4/16.png' data-aos="fade-right")
+                img(src='@/assets/curso/tema4/16.png' data-aos="fade-right" alt="Imagen decorativa")
             .col-lg-8.col-md-6.text-start(style="place-self:center;")
               h5 Canecas públicas
               p Deben estar a la altura de la mano para que facilite su uso; no deben tener tapas para que las personas puedan utilizarlas, con agujeros en el fondo para evitar acumulación de agua cuando llueve; color llamativo pero que no dañe la estética.
@@ -217,7 +217,7 @@
           .indicador--hover(v-if="indicadorTarjetaHover")
           .crd_hover_txt2--img
             figure.mb-5
-              img(src="@/assets/curso/tema4/17.svg")
+              img(src="@/assets/curso/tema4/17.svg" alt="Imagen decorativa")
           .crd_hover_txt2--body(style="background-color: #3076B6;")
             h5.fw-bold.text-center.text-white.mb-4 Casco o gorra
             p.mb-0.text-white La finalidad es la protección contra la radiación solar debido a que la función la realizan principalmente al aire libre y en horarios de la mañana.
@@ -226,7 +226,7 @@
           .crd_hover_txt2--img
             figure.mb-5
               img(src="@/assets/curso/tema4/18.svg")
-          .crd_hover_txt2--body(style="background-color: #3076B6;")
+          .crd_hover_txt2--body(style="background-color: #3076B6;" alt="Imagen decorativa")
             h5.fw-bold.text-center.text-white.mb-4 Protección visual
             p.mb-0.text-white  El personal debe utilizar gafas de seguridad para evitar la entrada de cualquier tipo de residuo en sus ojos.
       .col-lg-6.mb-4
@@ -234,7 +234,7 @@
           .crd_hover_txt2--img
             figure.mb-5
               img(src="@/assets/curso/tema4/19.svg")
-          .crd_hover_txt2--body(style="background-color: #3076B6;")
+          .crd_hover_txt2--body(style="background-color: #3076B6;" alt="Imagen decorativa")
             h5.fw-bold.text-center.text-white.mb-4 Protección respiratoria
             p.mb-0.text-white Deben utilizar mascarillas para evitar los olores ofensivos generados por los residuos sólidos, así como para evitar el ingreso de material particulado a las vías respiratorias.
       .col-lg-6
@@ -242,7 +242,7 @@
           .crd_hover_txt2--img
             figure.mb-5
               img(src="@/assets/curso/tema4/20.png")
-          .crd_hover_txt2--body(style="background-color: #3076B6;")
+          .crd_hover_txt2--body(style="background-color: #3076B6;" alt="Imagen decorativa")
             h5.fw-bold.text-center.text-white.mb-4 Protección de miembros 
             p.mb-0.text-white Deben utilizar guantes de carnaza o de vaqueta para evitar cortes y contactos con residuos cortopunzantes, calzado de protección de seguridad con puntera (para evitar lesiones con la caída de residuos), suela resistente a hidrocarburos y antideslizante para evitar caídas.
     

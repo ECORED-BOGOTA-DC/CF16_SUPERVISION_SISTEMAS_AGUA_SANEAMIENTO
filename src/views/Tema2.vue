@@ -8,7 +8,7 @@
       h1 Aforo de residuos sólidos
     
     figure.mb-md-0.mt-5.mb-4
-      img(src="@/assets/curso/tema2/1.png" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema2/1.png" data-aos="zoom-in-up" alt="Imagen decorativa")
     .col-lg-10.m-auto
       .p-4.cont_gradiente_gris
         p.mb-0(data-aos="fade-up") Realizar actividades de cuantificación de residuos en algunos puntos es una parte estratégica de los sistemas de recolección de residuos, pues permite, por un lado, establecer tarifas justas por el transporte y disposición, como la organización de la logística para vehículos de carga de los residuos.
@@ -36,7 +36,7 @@
         p.mt-4(data-aos="fade-up") Es importante aclarar que este mecanismo no es una obligación de las empresas prestadoras del servicio, conforme a lo establecido desde la #[strong Ley 142 (1994)], en su Artículo 9, sino que fue establecido como un derecho para las partes involucradas y busca que la tarifa reflejada para pago sea justa dependiendo de los residuos sólidos presentados para la recolección por un usuario determinado.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/11.png" data-aos="fade-left")
+          img(src="@/assets/curso/tema2/11.png" data-aos="fade-left" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") De acuerdo con la Comisión de Regulación de Agua Potable y Saneamiento Básico [CRA] (2012), en el Concepto 43851, especifica que el aforo de residuos sólidos se clasifica en tres (3):
 
@@ -44,19 +44,19 @@
       .col-lg.pe-0
         .h-100.p-4(style="background-color:#B6CFE5;border-radius:20px 0px 0px 20px;")
           figure.text-center
-            img(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema2/12.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h4.mt-4.text-center(data-aos="fade-up") Aforo ordinario
           p.mt-3.mb-0(data-aos="fade-up") Se realiza por la persona prestadora para incorporar nuevos usuarios o para actualizar el aforo anterior.
       .col-lg.ps-0.pe-0
         .h-100.p-4(style="background-color:#FFE7CB;")
           figure.text-center
-            img(src="@/assets/curso/tema2/13.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema2/13.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h4.mt-4.text-center(data-aos="fade-up") Aforo permanente
           p.mt-3.mb-0(data-aos="fade-up") Es cuando se decide realizar cada vez que se le preste el servicio de recolección a usuarios grandes productores; usualmente, es decidido por la empresa o persona prestadora del servicio.
       .col-lg.ps-0
         .h-100.p-4(style="background-color:#C1E4FA;border-radius:0px 20px 20px 0px;")
           figure.text-center
-            img(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;")
+            img(src="@/assets/curso/tema2/14.svg" data-aos="zoom-in-up" style="display:inline;max-width:130px;" alt="Imagen decorativa")
           h4.mt-4.text-center(data-aos="fade-up") Aforo extraordinario
           p.mt-3.mb-0(data-aos="fade-up") Realizado por petición del usuario o por la persona prestadora del servicio, cuando se encuentra evidencia que ha variado la cantidad de residuos producidos durante la vigencia del aforo ordinario o dentro de algún proceso de reclamación.
     
@@ -67,7 +67,7 @@
         p.mb-0(data-aos="fade-up") Las metodologías para realizar los aforos a los diferentes usuarios del sistema de recolección es siempre normada bajo resolución expedida por la Comisión de Regulación de Agua Potable y Saneamiento Básico [CRA], la cual es una entidad del orden nacional, creada mediante el Artículo 69 de la Ley 142 (1994), como unidad administrativa especial con autonomía administrativa, técnica y patrimonial, regida por la Constitución Política y por la ley, sin personería jurídica, adscrita al Ministerio de Vivienda, Ciudad y Territorio (MVCT), mediante el Decreto 1524 (1994). Le fueron delegadas las funciones relativas al señalamiento de las políticas generales de administración y control de eficiencia de los servicios públicos domiciliarios (CRA, s.f.).
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/15.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema2/15.svg" data-aos="fade-left" alt="Imagen decorativa")
 
     p.mt-5(data-aos="fade-up") La Resolución 236 (2002) de la CRA  estableció en su momento, en el Artículo 7, la metodología para la realización de aforos. Aunque esta norma ha tenido modificaciones, la base metodológica sigue siendo la misma, la cual se ratifica bajo la Resolución 442 (2008) de la CRA, que se describe a continuación.
 
@@ -79,11 +79,11 @@
             p Dependiendo de quien realiza el requerimiento del aforo, se deben definir el tipo de usuario y la clase de aforo a realizar.
           .col-lg-4.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/16.png' data-aos="fade-left")
+              img(src='@/assets/curso/tema2/16.png' data-aos="fade-left" alt="Imagen decorativa")
         .row
           .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/17.png' data-aos="fade-right")
+              img(src='@/assets/curso/tema2/17.png' data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.col-md-6.text-start(style="place-self:center;")
             h5 Programación de la visita
             p Es responsabilidad de la persona o empresa prestadora del servicio de recolección programar la visita; para ello debe tener en cuenta lo anteriormente descrito. Las visitas se programarán en los horarios habituales de recolección.
@@ -93,11 +93,11 @@
             p Se deberán programar aforos puntuales durante el periodo de facturación y la medición deberá corresponder a registros semanales o en los tiempos definidos por el ente regulador.
           .col-lg-4.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/18.png' data-aos="fade-left")
+              img(src='@/assets/curso/tema2/18.png' data-aos="fade-left" alt="Imagen decorativa")
         .row
           .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/19.png' data-aos="fade-right")
+              img(src='@/assets/curso/tema2/19.png' data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.col-md-6.text-start(style="place-self:center;")
             h5 Datos para tomar
             p El resultado del aforo base para la determinación de la cantidad de residuos sólidos para la facturación deberá calcularse a partir de la medición (peso y volumen) de los residuos generados y presentados durante, por lo menos, dos (2) semanas en un mismo periodo de facturación.
@@ -107,11 +107,11 @@
             p La persona prestadora deberá contar, para la realización de los aforos, con instrumentos de medida, debidamente calibrados y certificados por la entidad competente, acorde con las normas vigentes que regulan la materia. 
           .col-lg-4.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/20.png' data-aos="fade-left")
+              img(src='@/assets/curso/tema2/20.png' data-aos="fade-left" alt="Imagen decorativa")
         .row
           .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/21.png' data-aos="fade-right")
+              img(src='@/assets/curso/tema2/21.png' data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.col-md-6.text-start(style="place-self:center;")
             h5 Determinar densidad media
             p En cada una de las visitas, el aforador pesará los residuos sólidos presentados por el multiusuario, contará los recipientes (bolsas, canecas, contenedores o cajas estacionarias), medirá el volumen de estos y calculará la densidad media de los residuos aforados en cada una de ellas. 
@@ -121,11 +121,11 @@
             p  Con base en la información consignada en el formato de aforo diligenciado en cada visita, la persona prestadora, al finalizar el número de semanas fijadas para la realización de los aforos, determinará el promedio simple semanal de los residuos presentados por el multiusuario para recolección y su densidad media.
           .col-lg-4.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/22.png' data-aos="fade-left")
+              img(src='@/assets/curso/tema2/22.png' data-aos="fade-left" alt="Imagen decorativa")
         .row
           .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/23.png' data-aos="fade-right")
+              img(src='@/assets/curso/tema2/23.png' data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.col-md-6.text-start(style="place-self:center;")
             h5 Determinar la producción mensual
             p Se multiplicará el valor del promedio simple de producción semanal por el número de semanas del mes (4.34 semanas/mes).
@@ -135,11 +135,11 @@
             p Las mediciones base del nuevo aforo deberán estar suscritas por la persona designada por el multiusuario para tal fin o por dos testigos cuando este no se encuentra disponible o se niega a firmar el formato de aforo. 
           .col-lg-4.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/24.png' data-aos="fade-left")
+              img(src='@/assets/curso/tema2/24.png' data-aos="fade-left" alt="Imagen decorativa")
         .row
           .col-lg-4.mb-4.mb-md-0.col-md-6(style="place-self:center;")
             figure
-              img(src='@/assets/curso/tema2/25.png' data-aos="fade-right")
+              img(src='@/assets/curso/tema2/25.png' data-aos="fade-right" alt="Imagen decorativa")
           .col-lg-8.col-md-6.text-start(style="place-self:center;")
             h5 Acta final
             p El acta de aforo deberá ser suscrita por el aforador y el representante del multiusuario, o por las personas que obren como testigos de acuerdo con lo establecido en el literal anterior, en dos originales, uno de los cuales lo conservará la empresa y el otro el multiusuario.
@@ -168,13 +168,13 @@
               p.mb-0 El número de visitas a realizar en cada semana deberá ser igual a la frecuencia semanal de recolección pactada con el multiusuario.
       .col-lg-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/26.svg" data-aos="fade-left")
+          img(src="@/assets/curso/tema2/26.svg" data-aos="fade-left" alt="Imagen decorativa")
     
     .col-lg-10.m-auto.mt-5
       .tarjeta.color-primario.p-4(style="background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/tema1/17.svg")
+            img(src="@/assets/curso/tema1/17.svg" alt="Imagen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
