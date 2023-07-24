@@ -255,7 +255,7 @@
         span Mapa conceptual de nomenclatura
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4
-          img(src="@/assets/curso/tema3/12.png" data-aos="zoom-in-up" alt="Mapa conceptual de nomenclatura")
+          img(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up" alt="Mapa conceptual de nomenclatura")
       figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
     
     p.mt-5(data-aos="fade-up") Por consiguiente, de acuerdo con la Secretaría de Movilidad de Bogotá (2017), en la página de Infraestructura Integrada de Datos Espaciales para el Distrito Capital (IDECA), se describe la malla vial como:
