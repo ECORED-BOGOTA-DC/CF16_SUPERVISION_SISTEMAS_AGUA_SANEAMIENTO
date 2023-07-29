@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Supervisión de sistemas de recolección',
     descripcionCurso:
-      'El manejo de residuos sólidos es una de las actividades elementales para la gestión de impactos asociados a la contaminación del suelo, del agua y del aire; el manejo de residuos debe hacerse con base a las características particulares de cada uno. En este componente se realizará un enfoque desde la identificación del residuo hasta la normatividad base de manejo.',
+      'El manejo de residuos sólidos es una de las actividades elementales para la gestión de impactos asociados a la contaminación del suelo, del agua y del aire; el manejo de residuos debe hacerse con base en las características particulares de cada uno. En este componente se realizará un enfoque desde la identificación del residuo hasta la normatividad base de manejo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
