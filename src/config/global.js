@@ -378,7 +378,7 @@ export default {
     },
     {
       referencia:
-        'Secretaría Distrital de Movilidad. (2017, 20 diciembre). Infraestructura de Datos Espaciales de Bogotá. Ideca.',
+        'Infraestructura de Datos Espaciales de Bogotá - Ideca. (2023, 26 de julio). Malla vial integral. Bogotá D. C. Ideca. ',
       link:
         'https://www.ideca.gov.co/recursos/mapas/malla-vial-integral-bogota-dc',
     },
