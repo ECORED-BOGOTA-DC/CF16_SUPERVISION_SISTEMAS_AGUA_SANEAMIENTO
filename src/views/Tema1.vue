@@ -231,7 +231,7 @@
       .cont_gradiente1.mt-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/pBmZiEaTf_w" title="Residuos o desechos peligrosos con riesgo biológico o infeccioso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       .cajon.color-acento-contenido.p-4.mt-5(style="background-color:#E4F3FD;")
         p.mb-0(data-aos="fade-up") #[strong Nota:] todo residuo generado en la atención en salud y otras actividades, que haya estado en contacto o mezclado con residuos o desechos con riesgo biológico o infeccioso que genere dudas en su clasificación, incluyendo restos de alimentos parcialmente consumidos o sin consumir, material desechable, entre otros, que han tenido contacto con pacientes considerados potencialmente infectantes o generados en áreas de aislamiento deberán ser gestionados como residuos peligrosos (Decreto 780, 2016, Artículo 2.8.10.5).
