@@ -251,7 +251,7 @@
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5 Figura 1
+        h5 Figura 1.
         span Mapa conceptual de nomenclatura
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4
@@ -263,7 +263,7 @@
 
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5 Figura 2
+        h5 Figura 2.
         span Mapa conceptual sobre la vía
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4.col-lg-8.m-auto
@@ -273,7 +273,7 @@
     p.mt-5(data-aos="fade-up") Este objeto está categorizado con base en el tipo de clasificación de la sección vial según el #[span(style="color:#3076B6;") Plan de Ordenamiento Territorial (POT)] de cada ciudad. Dentro de los elementos que lo componen, es necesario aclarar los siguientes términos de acuerdo con la Secretaría de Movilidad de Bogotá (2017):
 
     .titulo-sexto.color-acento-botones.mt-5
-      h5 Figura 3
+      h5 Figura 3.
       span Malla Vial Integral. Bogotá D.C
     
     .row.mt-4
@@ -342,7 +342,7 @@
         .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
           .bg-white.pb-2.w-100
             .titulo-sexto.color-acento-botones
-              h5 Figura 4
+              h5 Figura 4.
               span Ejemplo de dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4
@@ -352,7 +352,7 @@
         .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
           .bg-white.pb-2.w-100
             .titulo-sexto.color-acento-botones
-              h5 Figura 5
+              h5 Figura 5.
               span Ubicación de la dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4.col-lg-8.m-auto
@@ -437,7 +437,7 @@
             h4.mb-0.pb-1.ps-1.pe-3(style="border-bottom:2px #193651 solid;width:fit-content;") Señales verticales
         
         .titulo-sexto.color-acento-botones.mt-4
-          h5 Figura 6
+          h5 Figura 6.
           span Muestra un paso peatonal regulado por semáforo ubicado en un tramo de vía.
         figure.mt-4
           img(src="@/assets/curso/tema3/22.svg" data-aos="zoom-in-up" alt="Muestra un paso peatonal regulado por semáforo ubicado en un tramo de vía")

@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="820" height="359" viewBox="0 0 820 359">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectángulo_350153" data-name="Rectángulo 350153" width="715.595" height="337.076" fill="none"/>
+      <rect id="Rectángulo_350148" data-name="Rectángulo 350148" width="715.595" height="337.076" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-3">
+    <clipPath id="clip-path-2">
       <rect id="Rectángulo_350146" data-name="Rectángulo 350146" width="136.851" height="22.953" transform="translate(20.454 152.23)" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-4">
+    <clipPath id="clip-path-3">
       <rect id="Rectángulo_350147" data-name="Rectángulo 350147" width="158.921" height="22.953" transform="translate(545.491 152.23)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1010072" data-name="Grupo 1010072" transform="translate(-391 -4832)">
-    <rect id="Rectángulo_348354" data-name="Rectángulo 348354" width="820" height="359" transform="translate(391 4832)" fill="#f3f9ff"/>
+  <g id="Grupo_1010074" data-name="Grupo 1010074" transform="translate(-391 -4832)">
+    <path id="Trazado_728949" data-name="Trazado 728949" d="M0,0H820V359H0Z" transform="translate(391 4832)" fill="#f3f9ff"/>
     <g id="Grupo_1009652" data-name="Grupo 1009652" transform="translate(443 4843)">
-      <g id="Grupo_1009651" data-name="Grupo 1009651" clip-path="url(#clip-path)">
+      <g id="Grupo_1010072" data-name="Grupo 1010072">
         <g id="Grupo_1009642" data-name="Grupo 1009642">
           <g id="Grupo_1009641" data-name="Grupo 1009641" clip-path="url(#clip-path)">
             <path id="Rectángulo_350141" data-name="Rectángulo 350141" d="M17.082,0h142.39a17.082,17.082,0,0,1,17.082,17.082v3.794a17.082,17.082,0,0,1-17.082,17.082H17.081A17.081,17.081,0,0,1,0,20.877V17.082A17.082,17.082,0,0,1,17.082,0Z" transform="translate(0.603 209.048)" fill="#fff0df"/>
@@ -23,14 +23,14 @@
             <path id="Rectángulo_350145" data-name="Rectángulo 350145" d="M17.082,0h316.3a17.083,17.083,0,0,1,17.083,17.083V27.939a17.082,17.082,0,0,1-17.082,17.082H17.082A17.082,17.082,0,0,1,0,27.939V17.082A17.082,17.082,0,0,1,17.082,0Z" transform="translate(181.213 66.686)" fill="#4db1f0"/>
             <g id="Grupo_1009637" data-name="Grupo 1009637" opacity="0.5">
               <g id="Grupo_1009636" data-name="Grupo 1009636">
-                <g id="Grupo_1009635" data-name="Grupo 1009635" clip-path="url(#clip-path-3)">
+                <g id="Grupo_1009635" data-name="Grupo 1009635" clip-path="url(#clip-path-2)">
                   <path id="Trazado_726601" data-name="Trazado 726601" d="M157.3,163.706a11.477,11.477,0,0,1-11.477,11.477H31.93a11.477,11.477,0,0,1,0-22.954h113.9A11.477,11.477,0,0,1,157.3,163.706" fill="#4db1f0"/>
                 </g>
               </g>
             </g>
             <g id="Grupo_1009640" data-name="Grupo 1009640" opacity="0.5">
               <g id="Grupo_1009639" data-name="Grupo 1009639">
-                <g id="Grupo_1009638" data-name="Grupo 1009638" clip-path="url(#clip-path-4)">
+                <g id="Grupo_1009638" data-name="Grupo 1009638" clip-path="url(#clip-path-3)">
                   <path id="Trazado_726602" data-name="Trazado 726602" d="M704.412,163.706c0,6.338-5.966,11.477-13.327,11.477H558.818c-7.36,0-13.327-5.139-13.327-11.477s5.967-11.477,13.327-11.477H691.085c7.361,0,13.327,5.139,13.327,11.477" fill="#4db1f0"/>
                 </g>
               </g>
@@ -52,7 +52,7 @@
         <text id="r" transform="translate(366.43 22.33)" fill="#fff" font-size="19.297" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700"><tspan x="0" y="0">r</tspan></text>
         <text id="a-2" data-name="a" transform="translate(373.57 22.33)" fill="#fff" font-size="19.297" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700"><tspan x="0" y="0">a</tspan></text>
         <text id="ur" transform="translate(387.818 22.33)" fill="#fff" font-size="19.297" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700"><tspan x="0" y="0">ur</tspan></text>
-        <text id="bana" transform="translate(408.112 22.33)" fill="#fff" font-size="19.297" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700"><tspan x="0" y="0">bana</tspan></text>
+        <text id="bana" transform="translate(406.818 22.33)" fill="#fff" font-size="19.297" font-family="MyriadPro-Bold, Myriad Pro" font-weight="700"><tspan x="0" y="0">bana</tspan></text>
         <text id="es" transform="translate(349.957 52.471)" fill="#1d1d1b" font-size="14.463" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">es</tspan></text>
         <g id="Grupo_1009644" data-name="Grupo 1009644">
           <g id="Grupo_1009643" data-name="Grupo 1009643" clip-path="url(#clip-path)">
@@ -168,6 +168,9 @@
             <line id="Línea_2950" data-name="Línea 2950" y1="83.808" transform="translate(492.842 253.268)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1.205"/>
             <line id="Línea_2951" data-name="Línea 2951" x1="76.291" transform="translate(492.842 294.331)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="1.205"/>
           </g>
+        </g>
+        <g id="Grupo_1010073" data-name="Grupo 1010073">
+          <rect id="Rectángulo_350153" data-name="Rectángulo 350153" width="715.595" height="337.076" fill="none"/>
         </g>
       </g>
     </g>
