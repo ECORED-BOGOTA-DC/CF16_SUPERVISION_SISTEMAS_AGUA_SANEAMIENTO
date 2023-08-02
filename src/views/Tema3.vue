@@ -255,7 +255,7 @@
         span Mapa conceptual de nomenclatura
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4
-          img(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up" alt="Mapa conceptual de nomenclatura")
+          img(src="@/assets/curso/tema3/12.svg" data-aos="zoom-in-up" alt="Muestra para conceptual de nomenclatura urbana donde identifica La nomenclatura vial compuesta por calles, carreras, diagonales, avenidas y la nomenclatura predial compuesta por dos valores numéricos y un guion")
       figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación. (s.f.). 
     
     p.mt-5(data-aos="fade-up") Por consiguiente, de acuerdo con la Secretaría de Movilidad de Bogotá (2017), en la página de Infraestructura Integrada de Datos Espaciales para el Distrito Capital (IDECA), se describe la malla vial como:
@@ -267,7 +267,7 @@
         span Mapa conceptual sobre la vía
       .p-3.ps-lg-5.pe-lg-5(style="background-color:#F3F9FF;")
         figure.mt-4.col-lg-8.m-auto
-          img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up" alt="Mapa conceptual sobre la vía")
+          img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up" alt="Muestra mapa conceptual sobre la vía donde se identifica lugar por donde transitan vehículos sea por una vía principal o vía generadora")
       figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") Fuente. IGAC y Ministerio de Educación (s.f.). 
     
     p.mt-5(data-aos="fade-up") Este objeto está categorizado con base en el tipo de clasificación de la sección vial según el #[span(style="color:#3076B6;") Plan de Ordenamiento Territorial (POT)] de cada ciudad. Dentro de los elementos que lo componen, es necesario aclarar los siguientes términos de acuerdo con la Secretaría de Movilidad de Bogotá (2017):
@@ -279,7 +279,7 @@
     .row.mt-4
       .col-lg.mb-4.mb-lg-0(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right" alt="Malla Vial Integral. Bogotá D.C")
+          img(src="@/assets/curso/tema3/14.png" data-aos="fade-right" alt="muestra cartografía de malla vial")
       .col-lg(style="place-self:center;")
         ul.lista-ul.ps-2.mb-0
           li.d-flex(data-aos="fade-up")
@@ -346,7 +346,7 @@
               span Ejemplo de dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4
-              img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up" alt="Ejemplo de dirección")
+              img(src="@/assets/curso/tema3/17.svg" data-aos="zoom-in-up" alt="muestra estructura de una dirección, calle, torre y apartamento")
             p.mt-5.text-center(data-aos="fade-up" style="margin-bottom:5rem;") La visualización espacial de esta dirección se ve en la figura 5.
       .col-lg.mb-4.mb-lg-0
         .h-100(style="background-color:#F3F9FF;display: flex;flex-wrap: wrap;align-content: space-between;")
@@ -356,7 +356,7 @@
               span Ubicación de la dirección
           .p-3.ps-lg-5.pe-lg-5.w-100
             figure.mt-4.col-lg-8.m-auto
-              img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up" alt="Ubicación de la dirección")
+              img(src="@/assets/curso/tema3/18.svg" data-aos="zoom-in-up" alt="Muestra ubicación de dirección calle y carrera")
     
     figcaption.fw-normal.p-4.text-center.mt-3(style="background-color:#D2E1F1;") #[strong Nota.] Tomadas de IGAC y Ministerio de Educación (s.f.).
 

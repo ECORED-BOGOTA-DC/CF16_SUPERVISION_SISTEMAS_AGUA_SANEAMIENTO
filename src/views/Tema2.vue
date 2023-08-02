@@ -67,7 +67,7 @@
         p.mb-0(data-aos="fade-up") Las metodologías para realizar los aforos a los diferentes usuarios del sistema de recolección es siempre normada bajo resolución expedida por la Comisión de Regulación de Agua Potable y Saneamiento Básico [CRA], la cual es una entidad del orden nacional, creada mediante el Artículo 69 de la Ley 142 (1994), como unidad administrativa especial con autonomía administrativa, técnica y patrimonial, regida por la Constitución Política y por la ley, sin personería jurídica, adscrita al Ministerio de Vivienda, Ciudad y Territorio (MVCT), mediante el Decreto 1524 (1994). Le fueron delegadas las funciones relativas al señalamiento de las políticas generales de administración y control de eficiencia de los servicios públicos domiciliarios (CRA, s.f.).
       .col-lg-4(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/15.svg" data-aos="fade-left" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema2/15.svg" data-aos="fade-left" alt="muestra logo de la Comisión e Regulación de Agua Potable y Saneamiento Básico")
 
     p.mt-5(data-aos="fade-up") La Resolución 236 (2002) de la CRA  estableció en su momento, en el Artículo 7, la metodología para la realización de aforos. Aunque esta norma ha tenido modificaciones, la base metodológica sigue siendo la misma, la cual se ratifica bajo la Resolución 442 (2008) de la CRA, que se describe a continuación.
 
