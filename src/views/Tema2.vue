@@ -69,7 +69,7 @@
         figure
           img(src="@/assets/curso/tema2/15.svg" data-aos="fade-left" alt="muestra logo de la Comisión e Regulación de Agua Potable y Saneamiento Básico")
 
-    p.mt-5(data-aos="fade-up") La Resolución 236 (2002) de la CRA  estableció en su momento, en el Artículo 7, la metodología para la realización de aforos. Aunque esta norma ha tenido modificaciones, la base metodológica sigue siendo la misma, la cual se ratifica bajo la Resolución 442 (2008) de la CRA, que se describe a continuación.
+    p.mt-5(data-aos="fade-up") La Resolución 236 (2002) de la CRA  estableció en su momento, en el Artículo 7, la metodología para la realización de aforos. Aunque esta norma ha tenido modificaciones, la base metodológica sigue siendo la misma, la cual se ratifica bajo la Resolución 442 (2008) de la CRA, que se describe a continuación:
 
     .col-lg-10.m-auto.mt-5
       PasosA.color-primario(tipo="n")

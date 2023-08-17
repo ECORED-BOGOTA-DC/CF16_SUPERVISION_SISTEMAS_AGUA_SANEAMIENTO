@@ -52,7 +52,7 @@
               li.d-flex(data-aos="fade-up")
                 i.fas.fa-check-circle(style="color:#FFA031;")
                 p.mb-0 Tratamiento y disposición.
-        p.mt-4(data-aos="fade-up") En general, cuando se quiere diseñar un sistema de aseo urbano, se debe tener varias etapas y las acciones que se van a llevar a cabo dentro de cada una, las cuales se describen a continuación.
+        p.mt-4(data-aos="fade-up") En general, cuando se quiere diseñar un sistema de aseo urbano, se debe tener varias etapas y las acciones que se van a llevar a cabo dentro de cada una, las cuales se describen a continuación:
     
     LineaTiempoD.color-secundario.mt-5
       div(numero="1" titulo="Preinversión")

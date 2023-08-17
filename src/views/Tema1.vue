@@ -101,8 +101,6 @@
       .col.ps-0(style="place-self:center;")
         h4.mb-0.pb-1.ps-2(style="border-bottom:2px #3076B6 dotted;width:fit-content;") Clasificación de residuos no peligrosos
     
-    p.mt-4(data-aos="fade-up") A continuación, se presentan los tipos de residuos no peligrosos, usados a nivel hospitalario.
-
     .row.mt-4
       .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
@@ -111,7 +109,7 @@
               img(src="@/assets/curso/tema1/12.png" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Biodegradables
-            p.mb-0 Son aquellos restos químicos o naturales que se descomponen fácilmente en el ambiente. En estos restos se encuentran los vegetales, residuos alimenticios, papeles no aptos para reciclaje, jabones y detergentes biodegradables, madera y otros residuos que puedan ser transformados fácilmente.
+            p.mb-0.text-small Son aquellos restos químicos o naturales que se descomponen fácilmente en el ambiente. En estos restos se encuentran los vegetales, residuos alimenticios, papeles no aptos para reciclaje, jabones y detergentes biodegradables, madera y otros residuos que puedan ser transformados fácilmente.
       .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .indicador--hover(v-if="indicadorTarjetaHover")
@@ -120,7 +118,7 @@
               img(src="@/assets/curso/tema1/13.png" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(255,160,49,.95);")
             p.fw-bold.text-center Reciclables
-            p.mb-0 Son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre estos se encuentran: papel, plástico, chatarra, telas y radiografías.
+            p.mb-0.text-small Son aquellos que no se descomponen fácilmente y pueden volver a ser utilizados en procesos productivos como materia prima. Entre estos se encuentran: papel, plástico, chatarra, telas y radiografías.
       .col-xl.col-lg-6.mb-4.mb-xl-0.col-md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
@@ -128,7 +126,7 @@
               img(src="@/assets/curso/tema1/14.png" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(77,177,240,.95);")
             p.fw-bold.text-center Inertes
-            p.mb-0 Son aquellos que no permiten su descomposición, ni su transformación en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre estos se encuentran: el icopor, papel, carbón y los plásticos.
+            p.mb-0.text-small Son aquellos que no permiten su descomposición, ni su transformación en materia prima y su degradación natural requiere grandes períodos de tiempo. Entre estos se encuentran: el icopor, papel, carbón y los plásticos.
       .col-xl.col-lg-6.col-.mb-xl-0md-6
         .crd_hover_txt(@mouseover="indicadorTarjetaHover = false")
           .crd_hover_txt--img
@@ -136,7 +134,7 @@
               img(src="@/assets/curso/tema1/15.png" alt="Imagen decorativa")
           .crd_hover_txt--body(style="background-color:rgba(255,160,49,.95);")
             p.fw-bold.text-center Ordinarios o comunes
-            p.mb-0 Son aquellos generados en el desempeño normal de las actividades. Estos restos se producen en oficinas, pasillos, áreas comunes, cafeterías y en general en todos los sitios del establecimiento del generador.
+            p.mb-0.text-small Son aquellos generados en el desempeño normal de las actividades. Estos restos se producen en oficinas, pasillos, áreas comunes, cafeterías y en general en todos los sitios del establecimiento del generador.
     
     .col-lg-10.m-auto.mt-5
       .tarjeta-avatar-b.mb-5
@@ -168,7 +166,7 @@
       .col.ps-0(style="place-self:center;")
         h4.mb-0.pb-1.ps-2(style="border-bottom:2px #3076B6 dotted;width:fit-content;") Residuos peligrosos
     
-    p.mt-4(data-aos="fade-up") Clasificados e identificados de acuerdo con las siglas CRETIIR  que me determina el análisis de la #[span(style="color:#3076B6;") corrosividad, reactividad, explosividad, toxicidad, inflamabilidad, riesgo infeccioso y radiactividad]. Por las iniciales de cada una de las características que puede contener un residuo que le aporta un grado de peligrosidad, expuestas en el Decreto 1076 (2015), las cuales compila el Decreto 4741 (2005). Revise en la siguiente infografía este análisis:
+    p.mt-4(data-aos="fade-up") Clasificados e identificados de acuerdo con las siglas CRETIIR que me determina el análisis de la #[span(style="color:#3076B6;") Corrosividad, Reactividad, Explosividad, Toxicidad, Inflamabilidad, Riesgo Infeccioso y Radiactividad]. Por las iniciales de cada una de las características que puede contener un residuo que le aporta un grado de peligrosidad, expuestas en el Decreto 1076 (2015), las cuales compila el Decreto 4741 (2005). Revise en la siguiente infografía este análisis:
 
     .row.mt-5
       .col-lg-4.mb-4.col-md-6
