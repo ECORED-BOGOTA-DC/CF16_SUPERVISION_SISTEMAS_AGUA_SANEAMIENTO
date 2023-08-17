@@ -250,23 +250,6 @@
       .cajon.cajon1.p-4(style="background-color:#F7F8FB;")
         p.mb-0(data-aos="fade-up") La empresa prestadora del servicio de aseo y el personal deben tener principio de autocuidado y tomar todas las medidas de seguridad que crean necesarias, con el fin de no exponer la seguridad ni la salud propia ni de los compañeros de trabajo.
       
-      h5.mt-5.text-center(data-aos="fade-up") Tipos de residuos sólidos
-      
-      .cont_gradiente1
-        .mt-4.col-lg-10.m-auto
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/7RFoVdV1Mxk" title="Tipos de residuos sólidos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      
-      h5.mt-5.text-center(data-aos="fade-up") Residuos o desechos peligrosos con riesgo biológico o infeccioso
-      
-      .cont_gradiente1
-        .mt-4.col-lg-10.m-auto
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/pBmZiEaTf_w" title="Residuos o desechos peligrosos con riesgo biológico o infeccioso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              
-    
 
 
 
